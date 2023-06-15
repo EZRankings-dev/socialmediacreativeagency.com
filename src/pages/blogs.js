@@ -191,7 +191,7 @@ const settings = {
                             </h3>
                             <div className="blog-one__person">
                                 <div className="blog-one__person-img">
-                                  <img src="https://www.socialmediacreativeagency.com/wp-content/uploads/2023/02/logo.png" alt={blogD.author} />
+                                  <img src="https://smca.ezrankings.in/react-backend/uploads/logo.png" alt={blogD.author} />
                                 </div>
                                 <div className="blog-one__person-content">
                                     <p>by {blogD.author}</p>

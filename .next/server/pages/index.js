@@ -2,7 +2,7 @@
 (() => {
 var exports = {};
 exports.id = 405;
-exports.ids = [405,227,241,482,457,911,450,219,383,783,14,611,448];
+exports.ids = [405,227,241,482,457,450,911,219,383,783,14,611,448];
 exports.modules = {
 
 /***/ 5901:
@@ -430,7 +430,7 @@ function Index({ dataHomes  }) {
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                 className: "blog-one__person-img",
                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                                    src: "https://www.socialmediacreativeagency.com/wp-content/uploads/2023/02/logo.png",
+                                                                    src: "https://smca.ezrankings.in/react-backend/uploads/logo.png",
                                                                     alt: blogD.author
                                                                 })
                                                             }),
