@@ -1,0 +1,22 @@
+{
+  "pages": {
+    "/components/About": [],
+    "/components/Home": [],
+    "/components/Portfolio": [],
+    "/components/PortfolioPageSlider": [],
+    "/components/PortfolioSlider": [],
+    "/components/Pricing": [],
+    "/thankyou": [],
+    "/[blogdetail]": [],
+    "/about": [],
+    "/blogs": [],
+    "/blog/[blogdetail]": [],
+    "/portfolio": [],
+    "/": [],
+    "/services": [],
+    "/pricing": []
+  },
+  "app": {},
+  "appUsingSizeAdjust": false,
+  "pagesUsingSizeAdjust": false
+}
