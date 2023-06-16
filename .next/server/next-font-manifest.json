@@ -1,19 +1,19 @@
 {
   "pages": {
     "/components/About": [],
-    "/components/Portfolio": [],
     "/components/Home": [],
+    "/components/Portfolio": [],
     "/components/PortfolioPageSlider": [],
-    "/components/PortfolioSlider": [],
     "/components/Pricing": [],
+    "/components/PortfolioSlider": [],
     "/thankyou": [],
+    "/[blogdetail]": [],
+    "/blogs": [],
     "/blog/[blogdetail]": [],
     "/about": [],
-    "/[blogdetail]": [],
     "/portfolio": [],
     "/services": [],
     "/": [],
-    "/blogs": [],
     "/pricing": []
   },
   "app": {},
