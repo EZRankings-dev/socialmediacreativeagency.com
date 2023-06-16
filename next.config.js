@@ -6,7 +6,11 @@ module.exports = {
   images:{
     domains:["https://smca.ezrankings.in/"]
     // unoptimized:true
-  }
+  },
+    // Set assetPrefix to the root path of your website
+    assetPrefix: process.env.NODE_ENV === 'production' ? '/': '',
+    // Set basePath to the root path of your website
+    basePath: process.env.NODE_ENV === 'production' ? '' : '',
 };
 
 // module.exports = nextConfig

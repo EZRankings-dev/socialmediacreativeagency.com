@@ -19,7 +19,7 @@ var jsx_runtime_ = __webpack_require__(997);
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(6689);
 ;// CONCATENATED MODULE: ./src/pages/assets/images/down.png
-/* harmony default export */ const down = ({"src":"/_next/static/media/down.4e078618.png","height":48,"width":48,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAD1BMVEVMaXH///////////////9FpdmZAAAABXRSTlMADBlfXbOzTSQAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAnSURBVHicNYoxEgAwDIIU/f+be20aBliQFm/KLRVBIwfyBrc7/g4HB7wANfqkc/EAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
+/* harmony default export */ const down = ({"src":"//_next/static/media/down.4e078618.png","height":48,"width":48,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAD1BMVEVMaXH///////////////9FpdmZAAAABXRSTlMADBlfXbOzTSQAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAnSURBVHicNYoxEgAwDIIU/f+be20aBliQFm/KLRVBIwfyBrc7/g4HB7wANfqkc/EAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./src/pages/components/Faq.js
 
 
