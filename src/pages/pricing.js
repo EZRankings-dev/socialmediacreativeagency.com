@@ -139,8 +139,9 @@ export default function MyPage({ data }) {
            <div className="row tabcontent" id="EngagementPlan" style={{display: isPlan== 'engagementPlan' ? 'block' :'none' }}>
                
             <div className="col-md-12 entry-content table-responsive" >
+           
                 <table className="table">
-                    <tbody>
+                    {/* <tbody>
                         <tr>
                             <td className="redC" colSpan={4}><span><strong>SOCIAL MEDIA ENGAGEMENT PLAN</strong></span></td>
                           </tr>
@@ -161,6 +162,96 @@ export default function MyPage({ data }) {
                               </tr>
                             ))}
                       
+                    </tbody> */}
+                    
+                    <tbody>
+                        
+                        <tr><td>SOCIAL MEDIA ENGAGEMENT PLAN</td>
+                        <td className="redC"><span>Start-up</span></td>
+                        <td className="redC"><span>Growth</span></td>
+                        <td className="redC"><span>Premium</span></td>
+                        </tr>
+                        <tr>
+                           <td>Pricing</td>
+                           <td className="fs"><sup>$</sup>450</td>
+                           <td className="fs"><sup>$</sup>600</td>
+                           <td className="fs"><sup>$</sup>800</td>
+                        </tr>
+                        <tr>
+                           <td className="br-right" style={{textAlign:'center'}} colspan="5"><span><strong>STRATEGY</strong></span></td>
+                        </tr>
+                        <tr>
+                           <td>Identify Business Goals</td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                           <td>Number of Creatives</td>
+                           <td className="">10</td>
+                           <td className="">20</td>
+                           <td className="">30</td>
+                        </tr>
+                        <tr>
+                           <td>Account Management</td>
+                           <td className="">Any 1 Platforms</td>
+                           <td className="">Any 2 Platforms</td>
+                           <td className="">Any 3 Platforms</td>
+                        </tr>
+                        <tr>
+                           <td>Analyze Your Audiences</td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                           <td>Create Social Media Calendar</td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                           <td>Create Content &amp; Marketing Strategies</td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                           <td>Advertisement Support</td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                           <td>Paid campaign execution  ( Included) **</td>
+                           <td className="">$100</td>
+                           <td className="">$200</td>
+                           <td className="">$300</td>
+                        </tr>
+                        <tr>
+                           <td>Paid Campaign Suggestions</td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                           <td>Identify Hashtags</td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                           <td>Stories , Repostings , Poll creations , IG REELS etc</td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                           <td>Monthly Reporting</td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                           <td className=""><i className="fas fa-check-circle"></i></td>
+                        </tr>
                     </tbody>
                   </table>
             </div>
@@ -350,13 +441,13 @@ export default function MyPage({ data }) {
       <div className="col-md-12" bis_skin_checked="1">
          <ul className="nav nav-tabs" role="tablist">
                <li className="nav-item" role="presentation" onClick={() => setActiveTab("startup")}>
-               <a className={activeTab =='startup' ? 'nav-link active' : 'nav-link'} data-bs-toggle="tab" aria-selected="true" role="tab">Option 1</a>
+               <a className={activeTab =='startup' ? 'nav-link active' : 'nav-link'} data-bs-toggle="tab" aria-selected="true" role="tab">Start-up</a>
                </li>
                <li className="nav-item" role="presentation" onClick={() => setActiveTab("economic")}>
-               <a className={activeTab =='economic' ? 'nav-link active' : 'nav-link'} data-bs-toggle="tab" aria-selected="false" role="tab" tabIndex="-1">Option 2</a>
+               <a className={activeTab =='economic' ? 'nav-link active' : 'nav-link'} data-bs-toggle="tab" aria-selected="false" role="tab" tabIndex="-1">Growth</a>
                </li>
                <li className="nav-item" role="presentation" onClick={() => setActiveTab("business")}>
-               <a className={activeTab =='business' ? 'nav-link active' : 'nav-link'} data-bs-toggle="tab"  aria-selected="false" role="tab" tabIndex="-1">Option 3</a>
+               <a className={activeTab =='business' ? 'nav-link active' : 'nav-link'} data-bs-toggle="tab"  aria-selected="false" role="tab" tabIndex="-1">Premium</a>
                </li>
             </ul>
             <div className="tab-content" bis_skin_checked="1">

@@ -1935,4 +1935,14 @@ blog-details__content  h2 {
     list-style: disc;
     padding: 0px;
     margin: 0px;
+}div#EngagementPlan tr td.redC span {
+    background: #db202b;
+    font-size: 27px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    margin-bottom: -1px!important;
+    width: 85%!important;
+    border-radius: 8px 8px 0 0;
+    padding: 10px 30px;
 }
