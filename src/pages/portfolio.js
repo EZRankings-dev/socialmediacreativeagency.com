@@ -28,7 +28,10 @@ import Link from 'next/link';
     // }
     const [postList, setPostList] = useState(blogDatta);
     // const [postwList, setPostwList] = useState(blogWDatta);
-
+    useEffect(() => {
+      setTimeout(() => {
+      }, 5000);
+      }, []);
     const toggleHiddenTitle = (index) => {
         if (hiddenTitleIndex === index) {
           setHiddenTitleIndex(null);

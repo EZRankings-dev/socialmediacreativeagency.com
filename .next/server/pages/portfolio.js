@@ -2,7 +2,7 @@
 (() => {
 var exports = {};
 exports.id = 371;
-exports.ids = [371,227,241,482,457,911,450,219,383,611,783,14,448];
+exports.ids = [371,227,457,450,911,241,219,383,482,14,783,448,611];
 exports.modules = {
 
 /***/ 9546:
@@ -64,6 +64,9 @@ function PortfolioIndex({ portData  }) {
     // }
     const [postList, setPostList] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(blogDatta);
     // const [postwList, setPostwList] = useState(blogWDatta);
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        setTimeout(()=>{}, 5000);
+    }, []);
     const toggleHiddenTitle = (index)=>{
         if (hiddenTitleIndex === index) {
             setHiddenTitleIndex(null);
