@@ -56,7 +56,7 @@ const settings = {
       <title>{dataBlogs.meta_title}</title>
       <meta name="keywords" content={dataBlogs.meta_keyword} />
       <meta name="description" content={dataBlogs.meta_description} />
-      <link rel="canonical" href="https://www.socialmediacreativeagency.com/" />
+      <link rel="canonical" href={dataBlogs.curUrl} />
       <meta property="og:locale" content="en_US" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content={dataBlogs.meta_title} />

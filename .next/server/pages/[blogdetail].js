@@ -1,7 +1,7 @@
 (() => {
 var exports = {};
 exports.id = 488;
-exports.ids = [488,227,241,457,450,482,911,219,783,14,611,383,448];
+exports.ids = [488,227,241,482,457,450,911,219,383,783,14,611,448];
 exports.modules = {
 
 /***/ 4023:
@@ -107,7 +107,7 @@ function Index({ dataBlogs  }) {
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                         rel: "canonical",
-                        href: "https://www.socialmediacreativeagency.com/"
+                        href: dataBlogs.curUrl
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         property: "og:locale",
