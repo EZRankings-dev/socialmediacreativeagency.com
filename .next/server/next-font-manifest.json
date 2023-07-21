@@ -9,11 +9,11 @@
     "/thankyou": [],
     "/blog/[blogdetail]": [],
     "/[blogdetail]": [],
-    "/blogs": [],
     "/about": [],
+    "/blogs": [],
     "/services": [],
-    "/portfolio": [],
     "/": [],
+    "/portfolio": [],
     "/pricing": []
   },
   "app": {},
