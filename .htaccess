@@ -1,0 +1,22 @@
+# Enable RewriteEngine
+
+RewriteEngine On
+RewriteRule ^7-social-media-hacks-to-double-your-brand-growth-in-2023/?$ https://www.socialmediacreativeagency.com/7-Social-Media-Hacks-To-Double-Your-Brand-Growth-In-2023 [R=301,L]
+
+
+# <IfModule mod_rewrite.c>
+# RewriteEngine On
+# RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+# RewriteBase /
+# RewriteRule ^index\.php$ - [L]
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule . /index.php [L]
+
+# redirect 301 /contact-us	https://www.socialmediacreativeagency.com/contact
+
+# redirect 301 /how-to-promote-your-business-on-instagram-in-2023-10-ways-that-actually-work	https://www.socialmediacreativeagency.com/How-To-Promote-Your-Business-On-Instagram-In-2023-%E2%80%93-10-Ways-That-Actually-Work
+
+# redirect 301 /7-social-media-hacks-to-double-your-brand-growth-in-2023	https://www.socialmediacreativeagency.com/7-Social-Media-Hacks-To-Double-Your-Brand-Growth-In-2023
+
+# </IfModule>
