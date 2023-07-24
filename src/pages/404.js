@@ -3,15 +3,24 @@ import Link from 'next/link';
 import Navbar from './components/Navbar'
 import { useRouter } from 'next/router';
 import Router from 'next/router'
+import { useState, useEffect } from 'react';
 
  const NotFound = ()=> {
+  const [dataShow, setDataShow] = useState(false);
   const router = useRouter();
-  let temUrl = router && router.asPath ? router.asPath : '';
-  if(temUrl == '/7-social-media-hacks-to-double-your-brand-growth-in-2023'){
-    Router.push('/7-Social-Media-Hacks-To-Double-Your-Brand-Growth-In-2023')
 
+const RedirectIsuue=()=>{
+  const temUrl = router && router.asPath ? router.asPath : '';
+  if(temUrl == '/7-social-media-hacks-to-double-your-brand-growth-in-2023'){
+    Router.push('/7-Social-Media-Hacks-To-Double-Your-Brand-Growth-In-2023');
+  // }else{
+  //   setDataShow(true);
   }
-  console.log(router.asPath,'vv');
+}
+  useEffect(() => {
+    //RedirectIsuue();
+}, [])
+  //console.log(router.asPath,'vv');
   return (
     <>
       <Head>
@@ -45,7 +54,7 @@ import Router from 'next/router'
       <meta name="google-site-verification" content="muKy4GDWt7CbVzZo5Gly_Z6UieYyZ65RlQsB4ts9uKY" />
       </Head>
       <Navbar />
-      <section className="exp-branding-sec">
+        <section className="exp-branding-sec">
            <div className="contianer">
               <div className="title-header">
                  <h2>Oops, Page you're looking for doesn't exist.</h2>

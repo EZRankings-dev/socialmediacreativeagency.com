@@ -24,6 +24,7 @@ export default function Index({ dataBlogs }) {
   if(router.asPath == "/7-social-media-hacks-to-double-your-brand-growth-in-2023"){
     Router.push('/7-Social-Media-Hacks-To-Double-Your-Brand-Growth-In-2023')
   }
+  console.log(router, 'vvv');
   return (
     <>
       <Head>
