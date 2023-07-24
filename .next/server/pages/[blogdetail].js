@@ -1,7 +1,7 @@
 (() => {
 var exports = {};
 exports.id = 488;
-exports.ids = [488,241,227,482,450,457,911,219,783,448,14,611,383];
+exports.ids = [488,482,457,450,241,911,219,783,611,14,448,383,227];
 exports.modules = {
 
 /***/ 4023:
@@ -49,35 +49,8 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_com
 // import routes from './routes';
 
 
+
 function Index({ dataBlogs  }) {
-    const [hiddenTitleIndex, setHiddenTitleIndex] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(0);
-    const settings = {
-        centerMode: true,
-        autoplay: false,
-        autoplaySpeed: 1000,
-        slidesToShow: 4,
-        dots: true,
-        arrows: true,
-        swipe: true,
-        infinite: true,
-        swipeToSlide: true,
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    };
-    const toggleHiddenTitle = (index)=>{
-        if (hiddenTitleIndex === index) {
-            setHiddenTitleIndex(null);
-        } else {
-            setHiddenTitleIndex(index);
-        }
-    };
     const router = (0,next_router__WEBPACK_IMPORTED_MODULE_10__.useRouter)();
     //console.log('vikas', router);
     // If the page is still being generated, show a loading state
@@ -85,6 +58,9 @@ function Index({ dataBlogs  }) {
         return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
             children: "Loading..."
         });
+    }
+    if (router.asPath == "/7-social-media-hacks-to-double-your-brand-growth-in-2023") {
+        next_router__WEBPACK_IMPORTED_MODULE_10___default().push("/7-Social-Media-Hacks-To-Double-Your-Brand-Growth-In-2023");
     }
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: [
@@ -384,6 +360,7 @@ function Index({ dataBlogs  }) {
 }
 // This function gets called at build time
 async function getStaticPaths() {
+    //alert('q');
     // Call an external API endpoint to get posts
     const res = await fetch("https://smca.ezrankings.in/react-backend/blogs.php");
     const posts = await res.json();

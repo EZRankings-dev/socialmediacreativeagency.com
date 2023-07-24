@@ -11,21 +11,43 @@ import "slick-carousel/slick/slick-theme.css"
 // import routes from './routes';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import Router from 'next/router'
 
 
 export default function Index({ dataBlogs }) {
 
+  const [hiddenTitleIndex, setHiddenTitleIndex] = useState(0);
 
+
+const settings = {
+  centerMode: true,
+  autoplay: false,
+  autoplaySpeed: 1000,
+  slidesToShow: 4,
+  dots: true,
+  arrows: true,
+  swipe: true,
+  infinite: true,
+  swipeToSlide: true, responsive: [{
+    breakpoint: 768,
+    settings: {
+    slidesToShow: 1,
+    slidesToScroll: 1
+    }
+  }
+]
+  };
+  const toggleHiddenTitle = (index) => {
+    if (hiddenTitleIndex === index) {
+      setHiddenTitleIndex(null);
+    } else {
+      setHiddenTitleIndex(index);
+    }
+  };
   const router = useRouter()
 
   // If the page is still being generated, show a loading state
   if (router.isFallback) {
     return <div>Loading...</div>
-  }
-  if(router.pathname == "/7-social-media-hacks-to-double-your-brand-growth-in-2023"){
-    Router.push('/7-Social-Media-Hacks-To-Double-Your-Brand-Growth-In-2023')
-
   }
   return (
     <>
@@ -47,6 +69,7 @@ export default function Index({ dataBlogs }) {
 
       <script async
         src="https://www.googletagmanager.com/gtag/js?id=G-4T85M437M3"
+        
       />
       <script
         dangerouslySetInnerHTML={{ __html: `
@@ -85,7 +108,7 @@ export default function Index({ dataBlogs }) {
                   <h3>1. YouTube Shorts is worth your investment:</h3>
                   <p>YouTube Shorts is the latest trend in social media, which allows users to create short, vertical videos. These short clips are quickly becoming popular and YouTube is already investing heavily in the technology. With its low-cost entry barriers, this could be a great way to reach your target audience and differentiate yourself from your competitors.</p>
                   <h3>2. Social media influencers:</h3>
-                  <p>Influencers are becoming increasingly important as they can leverage their followers and reach to promote products, services, and brands. As more businesses become aware of this potential, an increasing number of influencers are being employed in social media campaigns to drive engagement and <Link href="/7-social-media-hacks-to-double-your-brand-growth-in-2023/">brand</Link> awareness. Moreover, micro-influencers are becoming popular as they have a high level of influence over smaller groups.</p>
+                  <p>Influencers are becoming increasingly important as they can leverage their followers and reach to promote products, services, and brands. As more businesses become aware of this potential, an increasing number of influencers are being employed in social media campaigns to drive engagement and <a href="/7-social-media-hacks-to-double-your-brand-growth-in-2023/">brand</a> awareness. Moreover, micro-influencers are becoming popular as they have a high level of influence over smaller groups.</p>
                   <h3>3. The rise of voice-activated AI assistants:</h3>
                   <p>AI is among the hottest social media trends of 2023. Voice-activated assistants are becoming increasingly popular, allowing users to interact with their devices using natural language commands. These AI assistants can be used to help people find what they need quickly, as well as provide personalized recommendations based on user preferences.</p>
                   <h3>4. LinkedIn will see more creators:</h3>

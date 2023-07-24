@@ -1,7 +1,17 @@
 import Head from 'next/head'
 import Link from 'next/link';
 import Navbar from './components/Navbar'
+import { useRouter } from 'next/router';
+import Router from 'next/router'
+
  const NotFound = ()=> {
+  const router = useRouter();
+  let temUrl = router && router.asPath ? router.asPath : '';
+  if(temUrl == '/7-social-media-hacks-to-double-your-brand-growth-in-2023'){
+    Router.push('/7-Social-Media-Hacks-To-Double-Your-Brand-Growth-In-2023')
+
+  }
+  console.log(router.asPath,'vv');
   return (
     <>
       <Head>
