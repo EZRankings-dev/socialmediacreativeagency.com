@@ -22,17 +22,7 @@ module.exports = {
           source: '/how-to-promote-your-business-on-instagram-in-2023-10-ways-that-actually-work',
           destination: '/How-To-Promote-Your-Business-On-Instagram-In-2023-%E2%80%93-10-Ways-That-Actually-Work',
           permanent: true,
-        },
-        {
-          source: '/7-social-media-hacks-to-double-your-brand-growth-in-2023',
-          destination: '/Social-Media-Hacks-To-Double-Your-Brand-Growth-In-2023',
-          permanent: true,
-        },
-        {
-          source: '/7-Social-Media-Hacks-To-Double-Your-Brand-Growth-In-2023',
-          destination: '/Social-Media-Hacks-To-Double-Your-Brand-Growth-In-2023',
-          permanent: true,
-        }                     
+        }            
       ]
     },
   };

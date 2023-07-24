@@ -1,7 +1,7 @@
 (() => {
 var exports = {};
 exports.id = 968;
-exports.ids = [968,227,241,482,457,450,783,911,219,448,14,611,383];
+exports.ids = [968,241,227,482,450,457,911,219,783,448,14,611,383];
 exports.modules = {
 
 /***/ 674:
@@ -49,41 +49,17 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_com
 // import routes from './routes';
 
 
+
 function Index({ dataBlogs  }) {
-    const [hiddenTitleIndex, setHiddenTitleIndex] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(0);
-    const settings = {
-        centerMode: true,
-        autoplay: false,
-        autoplaySpeed: 1000,
-        slidesToShow: 4,
-        dots: true,
-        arrows: true,
-        swipe: true,
-        infinite: true,
-        swipeToSlide: true,
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    };
-    const toggleHiddenTitle = (index)=>{
-        if (hiddenTitleIndex === index) {
-            setHiddenTitleIndex(null);
-        } else {
-            setHiddenTitleIndex(index);
-        }
-    };
     const router = (0,next_router__WEBPACK_IMPORTED_MODULE_10__.useRouter)();
     // If the page is still being generated, show a loading state
     if (router.isFallback) {
         return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
             children: "Loading..."
         });
+    }
+    if (router.pathname == "/7-social-media-hacks-to-double-your-brand-growth-in-2023") {
+        next_router__WEBPACK_IMPORTED_MODULE_10___default().push("/7-Social-Media-Hacks-To-Double-Your-Brand-Growth-In-2023");
     }
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: [
@@ -249,7 +225,7 @@ function Index({ dataBlogs  }) {
                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                                 children: [
                                                     "Influencers are becoming increasingly important as they can leverage their followers and reach to promote products, services, and brands. As more businesses become aware of this potential, an increasing number of influencers are being employed in social media campaigns to drive engagement and ",
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_9___default()), {
                                                         href: "/7-social-media-hacks-to-double-your-brand-growth-in-2023/",
                                                         children: "brand"
                                                     }),
