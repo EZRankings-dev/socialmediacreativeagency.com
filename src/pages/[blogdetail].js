@@ -164,25 +164,6 @@ const settings = {
   )
 }
 
-// export default function Post({ post }) {
-//   const router = useRouter()
-
-//   // If the page is still being generated, show a loading state
-//   if (router.isFallback) {
-//     return <div>Loading...</div>
-//   }
-
-//   return (
-//     <div>
-//       <h1>Title : {post.title}</h1>
-//       <p>{post.id}</p>
-//     </div>
-//   )
-// }
-
-
-
-
 // This function gets called at build time
 export async function getStaticPaths() {
   // Call an external API endpoint to get posts

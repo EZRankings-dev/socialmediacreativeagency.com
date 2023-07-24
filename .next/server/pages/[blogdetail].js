@@ -1,7 +1,7 @@
 (() => {
 var exports = {};
 exports.id = 488;
-exports.ids = [488,227,241,482,457,450,911,219,783,14,611,448,383];
+exports.ids = [488,227,241,482,457,450,911,219,783,611,14,448,383];
 exports.modules = {
 
 /***/ 4023:
@@ -382,19 +382,6 @@ function Index({ dataBlogs  }) {
         ]
     });
 }
-// export default function Post({ post }) {
-//   const router = useRouter()
-//   // If the page is still being generated, show a loading state
-//   if (router.isFallback) {
-//     return <div>Loading...</div>
-//   }
-//   return (
-//     <div>
-//       <h1>Title : {post.title}</h1>
-//       <p>{post.id}</p>
-//     </div>
-//   )
-// }
 // This function gets called at build time
 async function getStaticPaths() {
     // Call an external API endpoint to get posts
