@@ -120,7 +120,7 @@ const settings = {
                <div className="col-md-12">
                   <div className="banner-caption">
                      <h2>We Love <span >St<img src={"https://smca.ezrankings.in/react-backend/uploads/oshap.png"} className="o-shap" alt=""/>ries</span></h2>
-                     <p>We Love to visualize stories beacuse we love people and they inspire us.</p>
+                     <p>We Love to visualize stories because we love people and they inspire us.</p>
                   </div>
                </div>
             </div>

@@ -2,7 +2,7 @@
 (() => {
 var exports = {};
 exports.id = 405;
-exports.ids = [405,241,227,482,450,457,911,219,14,783,448,611,383];
+exports.ids = [405,227,241,482,457,450,911,219,783,14,611,448,383];
 exports.modules = {
 
 /***/ 5901:
@@ -223,7 +223,7 @@ function Index({ dataHomes  }) {
                                         ]
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                        children: "We Love to visualize stories beacuse we love people and they inspire us."
+                                        children: "We Love to visualize stories because we love people and they inspire us."
                                     })
                                 ]
                             })
