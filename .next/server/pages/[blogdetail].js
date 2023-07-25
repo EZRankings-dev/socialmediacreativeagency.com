@@ -1,7 +1,7 @@
 (() => {
 var exports = {};
 exports.id = 488;
-exports.ids = [488,227,241,482,457,783,611,450,219,14,448,911,383];
+exports.ids = [488,241,227,482,450,457,911,219,14,783,448,611,383];
 exports.modules = {
 
 /***/ 4023:
@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(968);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5389);
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(9040);
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5301);
 /* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8096);
 /* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _components_FooterForm__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(1698);
@@ -49,8 +49,35 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_com
 // import routes from './routes';
 
 
-
 function Index({ dataBlogs  }) {
+    const [hiddenTitleIndex, setHiddenTitleIndex] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(0);
+    const settings = {
+        centerMode: true,
+        autoplay: false,
+        autoplaySpeed: 1000,
+        slidesToShow: 4,
+        dots: true,
+        arrows: true,
+        swipe: true,
+        infinite: true,
+        swipeToSlide: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
+    const toggleHiddenTitle = (index)=>{
+        if (hiddenTitleIndex === index) {
+            setHiddenTitleIndex(null);
+        } else {
+            setHiddenTitleIndex(index);
+        }
+    };
     const router = (0,next_router__WEBPACK_IMPORTED_MODULE_10__.useRouter)();
     //console.log('vikas', router);
     // If the page is still being generated, show a loading state
@@ -59,10 +86,6 @@ function Index({ dataBlogs  }) {
             children: "Loading..."
         });
     }
-    if (router.asPath == "/7-social-media-hacks-to-double-your-brand-growth-in-2023") {
-        next_router__WEBPACK_IMPORTED_MODULE_10___default().push("/7-Social-Media-Hacks-To-Double-Your-Brand-Growth-In-2023");
-    }
-    console.log(router, "vvv");
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: [
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_2___default()), {
@@ -359,9 +382,21 @@ function Index({ dataBlogs  }) {
         ]
     });
 }
+// export default function Post({ post }) {
+//   const router = useRouter()
+//   // If the page is still being generated, show a loading state
+//   if (router.isFallback) {
+//     return <div>Loading...</div>
+//   }
+//   return (
+//     <div>
+//       <h1>Title : {post.title}</h1>
+//       <p>{post.id}</p>
+//     </div>
+//   )
+// }
 // This function gets called at build time
 async function getStaticPaths() {
-    //alert('q');
     // Call an external API endpoint to get posts
     const res = await fetch("https://smca.ezrankings.in/react-backend/blogs.php");
     const posts = await res.json();

@@ -11,20 +11,44 @@ import "slick-carousel/slick/slick-theme.css"
 // import routes from './routes';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import Router from 'next/router'
 
 
 export default function Index({ dataBlogs }) {
+
+  const [hiddenTitleIndex, setHiddenTitleIndex] = useState(0);
+
+
+const settings = {
+  centerMode: true,
+  autoplay: false,
+  autoplaySpeed: 1000,
+  slidesToShow: 4,
+  dots: true,
+  arrows: true,
+  swipe: true,
+  infinite: true,
+  swipeToSlide: true, responsive: [{
+    breakpoint: 768,
+    settings: {
+    slidesToShow: 1,
+    slidesToScroll: 1
+    }
+  }
+]
+  };
+  const toggleHiddenTitle = (index) => {
+    if (hiddenTitleIndex === index) {
+      setHiddenTitleIndex(null);
+    } else {
+      setHiddenTitleIndex(index);
+    }
+  };
   const router = useRouter()
 //console.log('vikas', router);
   // If the page is still being generated, show a loading state
   if (router.isFallback) {
     return <div>Loading...</div>
   }
-  if(router.asPath == "/7-social-media-hacks-to-double-your-brand-growth-in-2023"){
-    Router.push('/7-Social-Media-Hacks-To-Double-Your-Brand-Growth-In-2023')
-  }
-  console.log(router, 'vvv');
   return (
     <>
       <Head>
@@ -140,9 +164,27 @@ export default function Index({ dataBlogs }) {
   )
 }
 
+// export default function Post({ post }) {
+//   const router = useRouter()
+
+//   // If the page is still being generated, show a loading state
+//   if (router.isFallback) {
+//     return <div>Loading...</div>
+//   }
+
+//   return (
+//     <div>
+//       <h1>Title : {post.title}</h1>
+//       <p>{post.id}</p>
+//     </div>
+//   )
+// }
+
+
+
+
 // This function gets called at build time
 export async function getStaticPaths() {
-  //alert('q');
   // Call an external API endpoint to get posts
   const res = await fetch('https://smca.ezrankings.in/react-backend/blogs.php')
   const posts = await res.json()
