@@ -178,7 +178,7 @@ export default function MyPage({ data }) {
                            <td className="fs"><sup>$</sup>800</td>
                         </tr>
                         <tr>
-                           <td className="br-right" style={{textAlign:'center'}} colspan="5"><span><strong>STRATEGY</strong></span></td>
+                           <td className="br-right" style={{textAlign:'center'}} colSpan="5"><span><strong>STRATEGY</strong></span></td>
                         </tr>
                         <tr>
                            <td>Identify Business Goals</td>

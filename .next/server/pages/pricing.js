@@ -1,7 +1,7 @@
 (() => {
 var exports = {};
 exports.id = 939;
-exports.ids = [939,227,241,482,457,450,911,219,783,14,611,448,383];
+exports.ids = [939,227,241,482,450,911,457,219,783,14,611,448,383];
 exports.modules = {
 
 /***/ 7747:
@@ -373,7 +373,7 @@ function MyPage({ data  }) {
                                                     style: {
                                                         textAlign: "center"
                                                     },
-                                                    colspan: "5",
+                                                    colSpan: "5",
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
                                                             children: "STRATEGY"

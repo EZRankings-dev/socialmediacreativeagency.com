@@ -54,7 +54,7 @@ const Navbar = ()=>{
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                                            href: "skype:84d04ee8fc094c1c",
+                                            href: "skype:84d04ee8fc094c1c?chat",
                                             children: [
                                                 " ",
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
