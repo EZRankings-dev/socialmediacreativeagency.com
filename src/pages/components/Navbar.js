@@ -22,7 +22,7 @@ const Navbar = () => {
                <div className="row" bis_skin_checked="1">
                      <div className="col-md-12" bis_skin_checked="1">
                         <ul>
-                           <li><a href="skype:84d04ee8fc094c1c?chat"> <i className="fab fa-skype"></i> <span>Contact SMCA</span></a></li>                           
+                           <li><a href="skype:live:.cid.84d04ee8fc094c1c?chat"> <i className="fab fa-skype"></i> <span>Contact SMCA</span></a></li>                           
                            <li><a href="tel: (+91-9599389388)"> <i className="far fa-phone-alt"></i> <span>+91-9599389388</span></a></li>
                            <li><a href="mailto:info@socialmediacreativeagency.com"> <i className="fal fa-envelope"></i><span> info@socialmediacreativeagency.com</span></a></li>
                         </ul>
