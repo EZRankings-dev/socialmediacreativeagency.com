@@ -1,20 +1,20 @@
 {
   "pages": {
     "/components/About": [],
-    "/components/Home": [],
-    "/components/Portfolio": [],
     "/components/PortfolioPageSlider": [],
-    "/components/Pricing": [],
+    "/components/Home": [],
     "/components/PortfolioSlider": [],
+    "/components/Portfolio": [],
+    "/components/Pricing": [],
     "/thankyou": [],
     "/[blogdetail]": [],
     "/about": [],
-    "/blog/[blogdetail]": [],
     "/blogs": [],
-    "/services": [],
-    "/": [],
     "/portfolio": [],
-    "/pricing": []
+    "/blog/[blogdetail]": [],
+    "/services": [],
+    "/pricing": [],
+    "/": []
   },
   "app": {},
   "appUsingSizeAdjust": false,
