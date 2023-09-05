@@ -752,9 +752,15 @@ section.banner-section .banner-caption h2 span {
 }
 .slick-prev {
     left: 43%;
-}.porfolio-slider .slick-slider.slick-slider.slick-initialized {
+}
+
+/* .porfolio-slider .slick-slider.slick-slider.slick-initialized {
     height: 282px!important;
-}section.porfolio-slider button.slick-arrow {
+} */
+.porfolio-slider .slick-slider.slick-slider.slick-initialized {
+    height: 100% !important;
+}
+section.porfolio-slider button.slick-arrow {
     top: 38% !important;
 }.top-header ul {
     display: flex;
@@ -784,7 +790,29 @@ section.porfolio-slider figure:after {
     left: 0;
     background-image: linear-gradient(#00000096, black);
 }
+.testimonial-section button.slick-arrow.slick-prev {
+    left: 10% !important;
+    bottom: 24% !important;
+    top: inherit !important;
+}
 
+.testimonial-section button.slick-arrow.slick-next {
+    right: 10% !important;
+    bottom: 24% !important;
+    top: inherit !important;
+}.testimonial-section p.des {
+    padding: 0px 52px;
+    height: 328px;
+    overflow-y: scroll !important;
+}.porfolio-slider2 {
+    margin-top: 0;
+   
+}.porfolio-slider2 {
+   
+    padding-bottom: 0;
+}.testimonial-section h2 {
+    
+    font-size: 30pt;}
 }
 
 @media(max-width: 480px){

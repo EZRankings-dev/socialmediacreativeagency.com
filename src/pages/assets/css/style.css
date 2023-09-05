@@ -633,7 +633,7 @@ section.porfolio-slider button.slick-arrow {
 }
 
 section.porfolio-slider .slick-prev {
-    left: -37px !important;
+    left: -37px;
     right: auto !important;
     position: absolute;
    
@@ -1945,4 +1945,90 @@ blog-details__content  h2 {
     width: 85%!important;
     border-radius: 8px 8px 0 0;
     padding: 10px 30px;
+}.testimonial-section h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 44pt;
+    font-weight: 300;
+    color: #000000;
+    line-height: 47pt;
+}
+
+
+.testimonial-section h4.name {
+    color: #dd222d;
+    font-weight: 300;
+    font-size: 25px !important;
+}
+
+.testimonial-section .about-avtar p {
+    margin: 0;
+}
+
+.testimonial-section  p.des span i {
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px !important;
+    color: #de222d;
+    font-weight: 300;
+}
+section.porfolio-slider {
+    margin-top: 50px;
+    position: relative;
+    padding-top: 90px;
+}.testimonial-section {
+    position: relative;
+}
+.testimonial-section:before {
+    content: "";
+    position: absolute;
+    width: 7%;
+    height: 4px;
+    background: #262626;
+    top: -15px;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.testimonial-section:after {
+    content: "";
+    position: absolute;
+    width: 7%;
+    height: 4px;
+    background: #262626;
+    bottom: 5%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+section.testimonial-section button.slick-arrow {
+    top: 30% !important;
+}
+section.testimonial-section .slick-prev {
+    left: -37px;
+    right: auto !important;
+    position: absolute;
+    transform: rotate(-45deg);
+    display: block;
+    margin: 29px auto;
+    width: 25px;
+    height: 25px;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+}section.testimonial-section .slick-next {
+    right: -37px;
+    position: absolute;
+    display: block;
+    margin: 30px auto;
+    width: 25px;
+    height: 25px;
+    border-top: 2px solid #000000;
+    border-left: 2px solid #000000;
+    transform: rotate(135deg);
+}.porfolio-slider2 {
+    margin-top: 50px;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 72px;
 }

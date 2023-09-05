@@ -2,7 +2,7 @@
 (() => {
 var exports = {};
 exports.id = 371;
-exports.ids = [371,227,241,457,450,219,383,482,911,783,448,611,14];
+exports.ids = [371,227,241,482,457,450,911,219,14,783,611,448,383];
 exports.modules = {
 
 /***/ 9546:
@@ -78,6 +78,22 @@ function PortfolioIndex({ portData  }) {
         autoplay: false,
         autoplaySpeed: 1000,
         slidesToShow: 2,
+        dots: true,
+        arrows: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
+    const settings2 = {
+        autoplay: false,
+        autoplaySpeed: 1000,
+        slidesToShow: 1,
         dots: true,
         arrows: true,
         responsive: [
@@ -221,6 +237,116 @@ function PortfolioIndex({ portData  }) {
                         })
                     })
                 })
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
+                className: "testimonial-section porfolio-slider2",
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                        children: "Our Client Speaks"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: "container",
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            className: "row",
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "col-md-9 mx-auto",
+                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                    className: "slider-porfolio",
+                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((react_slick__WEBPACK_IMPORTED_MODULE_8___default()), {
+                                        ...settings2,
+                                        className: "slick-slider2",
+                                        children: [
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                className: "testi-item",
+                                                children: [
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                                                        className: "des",
+                                                        children: [
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
+                                                                    className: "far fa-quote-left"
+                                                                })
+                                                            }),
+                                                            " Prasthan tours n travels, a travel company in Ahmedabad- one stop destination for all the travel needs. We were actually looking for someone who could handle our social media pages, but due to some of the other reason was not getting time to find the one n at that same time I received a call from SMCA. Even during that time I was running out of time due to some preoccupied work n commitments. I kept telling Tanu to call me later, n she never failed to take the follow ups. Seeing her dedication I felt that they are the one who deserves to work for our company. A very good deal was made for us. Apart from that they are very prompt n punctual with their services. Even their work is apt n to the point. They very well understood my requirement n need for the type of creatives I need for my company, which saves a lot of time in editing n posting. It's been 3 months now n I m very much satisfied with their work, even there's an increased number of likes n following for my pages after they have taken over.",
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
+                                                            "I would recommend SMCA to everyone who don't get time for their social media pages n who want it to be handled the way they want it to be. ",
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
+                                                                    className: "far fa-quote-right"
+                                                                })
+                                                            })
+                                                        ]
+                                                    }),
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                        className: "about-avtar",
+                                                        children: [
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                                                className: "name",
+                                                                children: "Nidhi Arya"
+                                                            }),
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                                className: "desination",
+                                                                children: "Sales and marketing"
+                                                            }),
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                                className: "company-name",
+                                                                children: "Prasthan tours n travels"
+                                                            }),
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                                className: "city-name",
+                                                                children: "Ahmedabad"
+                                                            })
+                                                        ]
+                                                    })
+                                                ]
+                                            }),
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                className: "testi-item",
+                                                children: [
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                                                        className: "des",
+                                                        children: [
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
+                                                                    className: "far fa-quote-left"
+                                                                })
+                                                            }),
+                                                            "SMCA helps us in creative design work for our social media page. They are very prompt with their services. I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad and I decided to work with you. We are working since past 3 months and I am happy with their work.",
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
+                                                            "I will surely recommend SMCA to anyone who is looking for good Creative Designs in the social media pages.",
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
+                                                                    className: "far fa-quote-right"
+                                                                })
+                                                            })
+                                                        ]
+                                                    }),
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                        className: "about-avtar",
+                                                        children: [
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                                                className: "name",
+                                                                children: "Ejas Ahmed"
+                                                            }),
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                                className: "desination",
+                                                                children: "Punnackal Jewellers"
+                                                            }),
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                                className: "company-name",
+                                                                children: "DWA Fashion PVT LTD."
+                                                            })
+                                                        ]
+                                                    })
+                                                ]
+                                            })
+                                        ]
+                                    })
+                                })
+                            })
+                        })
+                    })
+                ]
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
                 className: "portfolio-sec",

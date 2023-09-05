@@ -56,6 +56,24 @@ import Link from 'next/link';
        }
       ]
     } 
+
+    const settings2 = {
+
+      autoplay: false,
+      autoplaySpeed: 1000,
+      slidesToShow: 1,
+      dots: true,
+      arrows: true,
+      responsive: [
+     {
+       breakpoint: 768,
+       settings: {
+       slidesToShow: 1,
+       slidesToScroll: 1
+       }
+     }
+    ]
+  }
     const Fancybox = {
       
     }
@@ -113,7 +131,6 @@ import Link from 'next/link';
       <meta name="google-site-verification" content="muKy4GDWt7CbVzZo5Gly_Z6UieYyZ65RlQsB4ts9uKY" />
       </Head>
       <Navbar />
-
       <section className="porfolio-slider">
         <div className="container">
             <div className="row">
@@ -127,6 +144,51 @@ import Link from 'next/link';
                           </figure>
                         </div>
                       ))}
+                    </Slider>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section className="testimonial-section porfolio-slider2">
+        <h2>Our Client Speaks</h2>
+        <div className="container">
+            <div className="row">
+                <div className="col-md-9 mx-auto">
+                    <div className="slider-porfolio">
+                    <Slider {...settings2} className="slick-slider2">
+                      
+                    <div className='testi-item'>
+
+                      <p className="des"><span><i className="far fa-quote-left"></i></span> Prasthan tours n travels, a travel company in Ahmedabad- one stop destination for all the travel needs. We were actually looking for someone who could handle our social media pages, but due to some of the other reason was not getting time to find the one n at that same time I received a call from SMCA. 
+Even during that time I was running out of time due to some preoccupied work n commitments. I kept telling Tanu to call me later, n she never failed to take the follow ups. Seeing her dedication I felt that they are the one who deserves to work for our company. A very good deal was made for us. Apart from that they are very prompt n punctual with their services. Even their work is apt n to the point. They very well understood my requirement n need for the type of creatives I need for my company, which saves a lot of time in editing n posting. It's been 3 months now n I m very much satisfied with their work, even there's an increased number of likes n following for my pages after they have taken over.
+<br/>
+I would recommend SMCA to everyone who don't get time for their social media pages n who want it to be handled the way they want it to be. <span><i className="far fa-quote-right"></i></span></p>
+                    
+                    <div className="about-avtar">
+                      <h4 className='name'>Nidhi Arya
+</h4>
+<p className='desination'>Sales and marketing</p>
+<p className='company-name'>Prasthan tours n travels</p>
+<p className='city-name'>Ahmedabad 
+</p>
+</div>
+                    </div>
+
+                    <div className='testi-item'>
+
+<p className='des'><span><i className="far fa-quote-left"></i></span>SMCA helps us in creative design work for our social media page. They are very prompt with their services. I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad and I decided to work with you. We are working since past 3 months and I am happy with their work. 
+<br/>
+I will surely recommend SMCA to anyone who is looking for good Creative Designs in the social media pages.<span><i className="far fa-quote-right"></i></span></p>
+
+<div className="about-avtar">
+<h4 className='name'>Ejas Ahmed
+</h4>
+<p className='desination'>Punnackal Jewellers</p>
+<p className='company-name'>DWA Fashion PVT LTD.</p>
+{/* <p className='city-name'>DWA Fashion PVT LTD.</p> */}
+</div>
+</div>
                     </Slider>
                     </div>
                 </div>
