@@ -1977,7 +1977,7 @@ blog-details__content  h2 {
 section.porfolio-slider {
     margin-top: 50px;
     position: relative;
-    padding-top: 90px;
+    /* padding-top: 90px; */
 }.testimonial-section {
     position: relative;
 }
