@@ -1946,14 +1946,24 @@ blog-details__content  h2 {
     border-radius: 8px 8px 0 0;
     padding: 10px 30px;
 }.testimonial-section h2 {
-    text-align: center;
+    /* text-align: center;
     padding-bottom: 30px;
     width: 90%;
     margin: 0 auto;
     font-size: 44pt;
     font-weight: 300;
     color: #000000;
+    line-height: 47pt; */
+    text-align: center;
+    margin: 0 auto;
     line-height: 47pt;
+    /* padding-bottom: 30px; */
+    background: #db202b;
+    color: #fff;
+    width: 65%;
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 9px;
 }
 
 
