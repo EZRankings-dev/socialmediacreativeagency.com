@@ -2,7 +2,7 @@
 (() => {
 var exports = {};
 exports.id = 371;
-exports.ids = [371,227,241,482,457,450,911,219,14,783,611,448,383];
+exports.ids = [371,227,241,457,911,450,219,783,482,14,448,611,383];
 exports.modules = {
 
 /***/ 9546:
@@ -263,6 +263,7 @@ function PortfolioIndex({ portData  }) {
                                                         className: "des",
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                                className: "start",
                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
                                                                     className: "far fa-quote-left"
                                                                 })
@@ -271,6 +272,7 @@ function PortfolioIndex({ portData  }) {
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
                                                             "I would recommend SMCA to everyone who don't get time for their social media pages n who want it to be handled the way they want it to be. ",
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                                className: "end",
                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
                                                                     className: "far fa-quote-right"
                                                                 })
@@ -307,6 +309,7 @@ function PortfolioIndex({ portData  }) {
                                                         className: "des",
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                                className: "start",
                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
                                                                     className: "far fa-quote-left"
                                                                 })
@@ -315,6 +318,7 @@ function PortfolioIndex({ portData  }) {
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
                                                             "I will surely recommend SMCA to anyone who is looking for good Creative Designs in the social media pages.",
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                                className: "end",
                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
                                                                     className: "far fa-quote-right"
                                                                 })

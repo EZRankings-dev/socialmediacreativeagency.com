@@ -2032,3 +2032,26 @@ section.testimonial-section .slick-prev {
     padding-top: 50px;
     padding-bottom: 72px;
 }
+
+section.testimonial-section span.start {
+    position: relative;
+}
+
+section.testimonial-section span.start i {
+    position: absolute;
+    left: -43px;
+    top: -22px;
+}
+
+section.testimonial-section p.des {
+    padding: 30px;
+}
+
+span.end {
+    position: relative;
+}
+
+section.testimonial-section span.end i {
+    position: absolute;
+    top: -8px;
+}

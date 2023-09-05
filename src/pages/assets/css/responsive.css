@@ -812,7 +812,10 @@ section.porfolio-slider figure:after {
     padding-bottom: 0;
 }.testimonial-section h2 {
     
-    font-size: 30pt;}
+    font-size: 30pt;}section.testimonial-section p.des {
+        padding: 30px;
+        margin: 17px;
+    }
 }
 
 @media(max-width: 480px){
