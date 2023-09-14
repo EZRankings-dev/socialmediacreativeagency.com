@@ -1,10 +1,1 @@
-self.__NEXT_FONT_MANIFEST={
-  "pages": {
-    "/blogs": [],
-    "/[blogdetail]": [],
-    "/": []
-  },
-  "app": {},
-  "appUsingSizeAdjust": false,
-  "pagesUsingSizeAdjust": false
-}
+self.__NEXT_FONT_MANIFEST={pages:{"/components/About":[],"/components/Home":[],"/components/PortfolioPageSlider":[],"/components/Portfolio":[],"/components/PortfolioSlider":[],"/components/Pricing":[],"/[blogdetail]":[],"/about":[],"/blogs":[],"/blog/[blogdetail]":[],"/":[],"/portfolio":[],"/thankyou":[],"/services":[],"/pricing":[]},app:{},appUsingSizeAdjust:!1,pagesUsingSizeAdjust:!1};

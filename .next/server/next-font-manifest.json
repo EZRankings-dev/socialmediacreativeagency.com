@@ -1,8 +1,20 @@
 {
   "pages": {
-    "/blogs": [],
+    "/components/About": [],
+    "/components/Home": [],
+    "/components/PortfolioPageSlider": [],
+    "/components/Portfolio": [],
+    "/components/PortfolioSlider": [],
+    "/components/Pricing": [],
     "/[blogdetail]": [],
-    "/": []
+    "/about": [],
+    "/blogs": [],
+    "/blog/[blogdetail]": [],
+    "/": [],
+    "/portfolio": [],
+    "/thankyou": [],
+    "/services": [],
+    "/pricing": []
   },
   "app": {},
   "appUsingSizeAdjust": false,

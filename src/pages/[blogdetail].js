@@ -48,20 +48,20 @@ export default function Index({ dataBlogs }) {
   if (router.isFallback) {
     return <div>Loading...</div>
   }
-  useEffect(() => {
-    if(dataBlogs && dataBlogs.latestBlog && dataBlogs.latestBlog.length > 0 ){
-      const latData = dataBlogs.latestBlog.map((item, k) => {
-        return {
-          id: item.id,
-          title: item.title,
-          img: item.img,
-          linkUrl: item.linkUrl
-        }
-      }
-    )
-    setLatestBlog(latData);
-    }
-}, [])
+//   useEffect(() => {
+//     if(dataBlogs && dataBlogs.latestBlog && dataBlogs.latestBlog.length > 0 ){
+//       const latData = dataBlogs.latestBlog.map((item, k) => {
+//         return {
+//           id: item.id,
+//           title: item.title,
+//           img: item.img,
+//           linkUrl: item.linkUrl
+//         }
+//       }
+//     )
+//     setLatestBlog(latData);
+//     }
+// }, [])
   return (
     <>
       <Head>
@@ -175,7 +175,7 @@ export default function Index({ dataBlogs }) {
           <h3>Latest Blog Post</h3>
           <div className='grow-your-bus-list'>
             <ul className="latest-post-link" >
-              {latestBlog && latestBlog.length > 0 && latestBlog.map((lat, l)=>{
+              {dataBlogs && dataBlogs.latestBlog && dataBlogs.latestBlog.length > 0 && dataBlogs.latestBlog.map((lat, l)=>{
                 return(
 
                   <li key={l}><Link href={lat.linkUrl}><img src={lat.img}/><span>{lat.title}</span></Link></li>    
