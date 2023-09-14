@@ -17,7 +17,7 @@ const Footer = () => {
                <div className="col-md-3">
                   <div className="footer-item">
                      <ul>
-                        <li><a href="" target="_blank">info@socialmediacreativeagency.com</a></li>
+                        <li><a href="mailto:info@socialmediacreativeagency.com" target="_blank">info@socialmediacreativeagency.com</a></li>
                         <li>Phone: <a href="tel:+91-9599389388">+91-9599389388</a></li>
                         {/* <li>WhatsApp: <a href="https://api.whatsapp.com/send?phone=+919599389388&amp;text=Hello!" target="_blank">+91-9599389388</a></li> */}
                      </ul>

@@ -88,7 +88,7 @@ const settings = {
       <section className="blog-details">
         <div className="container">
           <div className="row">
-            <div className="col-xl-12 col-lg-12">
+            <div className="col-xl-8 col-lg-12">
               <div className="blog-details__left">
                 <div className="blog-details__img">
                   <img src="https://www.socialmediacreativeagency.com/wp-content/uploads/2023/05/Top-10-Social-Media-Trends-for-2023-1-scaled.jpg" alt="" />
@@ -130,6 +130,84 @@ const settings = {
                 </div>
               </div>
             </div>
+            <div className='col-md-4'>
+              <div className='blog-sidebar'>
+              <form className='sidebarsearch'>
+                            <input type="text" placeholder="Search in our Blog" name="s" class="opensans-light user-valid valid"/>
+                            <input type="submit" value="" class="searchButton_single"/>
+                        </form>
+<h3>Grow your business</h3>
+<div className='grow-your-bus-list'>
+  <form>
+  <label>
+  I am interested in *
+  </label>
+  <ul class="gfield_checkbox so_blog_amp" id="input_1_1">
+                                            <li class="gchoice_1_1_1">
+                                                <input name="intreast[]" type="checkbox" value="Social Media Marketing" id="choice_1_1_1"/>
+                                                <label for="choice_1_1_1" id="label_1_1_1">Social Media
+                                                    Marketing</label>
+                                            </li>
+                                            <li class="gchoice_1_1_2">
+                                                <input name="intreast[]" type="checkbox" value="Performance advertising" id="choice_1_1_2"/>
+                                                <label for="choice_1_1_2" id="label_1_1_2">Performance
+                                                    advertising</label>
+                                            </li>
+                                            <li class="gchoice_1_1_3">
+                                                <input name="intreast[]" type="checkbox" value="SEO and content marketing" id="choice_1_1_3"/>
+                                                <label for="choice_1_1_3" id="label_1_1_3">SEO and content
+                                                    marketing</label>
+                                            </li>
+                                            <li class="gchoice_1_1_4">
+                                                <input name="intreast[]" type="checkbox" value="Multilingual marketing" id="choice_1_1_4"/>
+                                                <label for="choice_1_1_4" id="label_1_1_4">Multilingual
+                                                    marketing</label>
+                                            </li>
+                                            <li class="gchoice_1_1_5">
+                                                <input name="intreast[]" type="checkbox" value="Video creation and marketing" id="choice_1_1_5"/>
+                                                <label for="choice_1_1_5" id="label_1_1_5">Video creation and
+                                                    marketing</label>
+                                            </li>
+                                            <li class="gchoice_1_1_6">
+                                                <input name="intreast[]" type="checkbox" value="Influencer Marketing" id="choice_1_1_6"/>
+                                                <label for="choice_1_1_6" id="label_1_1_6">Influencer Marketing</label>
+                                            </li>
+                                            <li class="gchoice_1_1_7">
+                                                <input name="intreast[]" type="checkbox" value="Website &amp; Landing Pages" id="choice_1_1_7"/>
+                                                <label for="choice_1_1_7" id="label_1_1_7">Website &amp; Landing
+                                                    Pages</label>
+                                            </li>
+                                            <li class="gchoice_1_1_8">
+                                                <input name="intreast[]" type="checkbox" value="Branding &amp; Identity" id="choice_1_1_8"/>
+                                                <label for="choice_1_1_8" id="label_1_1_8">Branding &amp;
+                                                    Identity</label>
+                                            </li>
+                                            <li class="gchoice_1_1_9">
+                                                <input name="intreast[]" type="checkbox" value="Programmatic Advertising" id="choice_1_1_9"/>
+                                                <label for="choice_1_1_9" id="label_1_1_9">Programmatic
+                                                    Advertising</label>
+                                            </li>
+                                            <li class="gchoice_1_1_10">
+                                                <input name="services[]" type="checkbox" value="Marketing Automation" id="choice_1_1_10"/>
+                                                <label for="choice_1_1_10" id="label_1_1_10">Marketing
+                                                    Automation</label>
+                                            </li>
+                                        </ul>
+  </form>
+
+</div>
+
+
+<div className='sidebar-newsletter'>
+  <h4>STAY UP TO BEAT WITH THE LATEST DIGITAL MARKETING TRENDS AND TECHNIQUES
+
+</h4>
+<input type='text' className='newsletter' placeholder='Email'/>
+<a href=''><i class="fas fa-paper-plane"></i></a>
+</div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>

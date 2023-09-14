@@ -97,24 +97,20 @@ import Link from 'next/link';
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
     <title>Our Portfolio - Social Media Creative Agency</title>
     <meta name="description" content="Find the list of Social Media projects which has been done by Social Media Creative Agency with good results." />
-    <link rel="canonical" href="https://www.socialmediacreativeagency.com/portfolio/" />
+    <link rel="canonical" href="https://www.socialmediacreativeagency.com/portfolio" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Our Portfolio - Social Media Creative Agency" />
     <meta property="og:description" content="Find the list of Social Media projects which has been done by Social Media Creative Agency with good results." />
-    <meta property="og:url" content="https://www.socialmediacreativeagency.com/portfolio/" />
+    <meta property="og:url" content="https://www.socialmediacreativeagency.com/portfolio" />
     <meta property="og:site_name" content="Creative Agency" />
-    <meta property="article:modified_time" content="2023-02-27T05:41:03+00:00" />
+    <meta property="og:image" content="https://smca.ezrankings.in/react-backend/uploads/logo.png" />
+    <meta property="article:modified_time" content="" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="stylesheet" type="text/css" href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css"></link>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap"></link>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"></link>
-    
-    
-   
-   
-   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-   
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4T85M437M3" />
       <script
         dangerouslySetInnerHTML={{ __html: `

@@ -45,13 +45,15 @@ export default function Abouts({ dataAbout }) {
       <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
        <title>About Us - Creative Agency</title>
        <meta name="description" content="We are a passionate team of Social media creative experts who are committed to assisting companies in flourishing digitally. Contact Us today." /> 
-       <link rel="canonical" href="https://www.socialmediacreativeagency.com/about/" />
+       <link rel="canonical" href="https://www.socialmediacreativeagency.com/about" />
        <meta property="og:locale" content="en_US" />
        <meta property="og:type" content="article" />
        <meta property="og:title" content="About - Creative Agency" />
-       <meta property="og:url" content="https://www.socialmediacreativeagency.com/about/" />
+       <meta property="og:url" content="https://www.socialmediacreativeagency.com/about" />
        <meta property="og:site_name" content="Creative Agency" />
-       <meta property="article:modified_time" content="2023-02-21T11:51:16+00:00" />
+       <meta property="og:url" content="https://www.socialmediacreativeagency.com/about" />
+       <meta property="og:image" content="https://smca.ezrankings.in/react-backend/uploads/logo.png" />
+       <meta property="article:modified_time" content="" />
        <meta name="twitter:card" content="summary_large_image" />
        <link rel="stylesheet" type="text/css" href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css"></link>
        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap"></link>

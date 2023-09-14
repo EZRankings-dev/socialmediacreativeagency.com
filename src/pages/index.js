@@ -72,6 +72,17 @@ const settings = {
       setHiddenTitleIndex(index);
     }
   };
+  const isSticky = (e) => {
+   const header = document.querySelector('nav');
+   const scrollTop = window.scrollY;
+   scrollTop >= 250 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
+};
+  useEffect(() => {
+   window.addEventListener('scroll', isSticky);
+   return () => {
+       window.removeEventListener('scroll', isSticky);
+   };
+});
   return (
     <>
       <Head>
@@ -79,14 +90,15 @@ const settings = {
       <title>Full Service Social Media Creative Agency in India - Engaging Social Media Posts Services</title>
       <meta name="keywords" content="social media creative agency, creative agency social media posts, social media posting agency, full service social media agency, full service creative agency, social media agency for small business, creative social media agency, creative social media services"/>
       <meta name="description" content="Are you searching full-service social media agency in India? Boost your visibility and engagement with our creative social media services. We provide comprehensive solutions for small and large businesses to increase their ROI." />
-      <link rel="canonical" href="https://www.socialmediacreativeagency.com/" />
+      <link rel="canonical" href="https://www.socialmediacreativeagency.com" />
       <meta property="og:locale" content="en_US" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Full Service Social Media Creative Agency in India - Engaging Social Media Posts Services" />
       <meta property="og:description" content="Are you searching full-service social media agency in India? Boost your visibility and engagement with our creative social media services. We provide comprehensive solutions for small and large businesses to increase their ROI." />
-      <meta property="og:url" content="https://www.socialmediacreativeagency.com/" />
+      <meta property="og:url" content="https://www.socialmediacreativeagency.com" />
       <meta property="og:site_name" content="Creative Agency" />
-      <meta property="article:modified_time" content="2023-02-27T05:38:12+00:00" />
+      <meta property="og:image" content="https://smca.ezrankings.in/react-backend/uploads/logo.png" />
+      <meta property="article:modified_time" content="" />
       <link rel="stylesheet" type="text/css" href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css"></link>
       <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap"></link>
       {/* <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
@@ -102,6 +114,9 @@ const settings = {
       />
       <script
         dangerouslySetInnerHTML={{ __html: `
+
+        
+
         window.dataLayer = window.dataLayer || [];
         function gtag(){
           dataLayer.push(arguments);
@@ -297,7 +312,7 @@ const settings = {
 
                                     With over five billion mobile users worldwide and nearly five billion social media users, all
                                     businesses need to leverage them to grow to new heights. Unlike trying DIY skills for
-                                    creating personal social media posts, hiring creative social media services for business
+                                    creating personal social media posts, hiring creative  <a href="https://www.socialmediacreativeagency.com/social-media-marketing-agency-in-india">social media services</a> for business
                                     postings is essential. It is because social media is fast becoming the tool to reach and
                                     engage audiences to grow business to new levels. Especially for small businesses, it is a
                                     cost-effective way for posting viral content to become a big business fast. 

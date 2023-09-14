@@ -5,6 +5,7 @@ import Head from 'next/head'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer';
 import Slider from "react-slick"
+import BlogNewlImg from "./assets/images/newsleter-blog.png";
 import FooterForm from './components/FooterForm';
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -14,11 +15,9 @@ import { useRouter } from 'next/router';
 
 
 export default function Index({ dataBlogs }) {
-
+  const [latestBlog, setLatestBlog] = useState([]);
   const [hiddenTitleIndex, setHiddenTitleIndex] = useState(0);
-
-
-const settings = {
+  const settings = {
   centerMode: true,
   autoplay: false,
   autoplaySpeed: 1000,
@@ -49,6 +48,20 @@ const settings = {
   if (router.isFallback) {
     return <div>Loading...</div>
   }
+  useEffect(() => {
+    if(dataBlogs && dataBlogs.latestBlog && dataBlogs.latestBlog.length > 0 ){
+      const latData = dataBlogs.latestBlog.map((item, k) => {
+        return {
+          id: item.id,
+          title: item.title,
+          img: item.img,
+          linkUrl: item.linkUrl
+        }
+      }
+    )
+    setLatestBlog(latData);
+    }
+}, [])
   return (
     <>
       <Head>
@@ -61,16 +74,13 @@ const settings = {
       <meta property="og:type" content="website" />
       <meta property="og:title" content={dataBlogs.meta_title} />
       <meta property="og:description" content={dataBlogs.meta_description} />
-      <meta property="og:url" content="https://www.socialmediacreativeagency.com/" />
+      <meta property="og:url" content={dataBlogs.curUrl} />
       <meta property="og:site_name" content="Creative Agency" />
-      <meta property="article:modified_time" content="2023-02-27T05:38:12+00:00" />
+      <meta property="og:image" content={dataBlogs.img} />
+      <meta property="article:modified_time" content="" />
       <link rel="stylesheet" type="text/css" href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css"></link>
-      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap"></link>
-
-      <script async
-        src="https://www.googletagmanager.com/gtag/js?id=G-4T85M437M3"
-        
-      />
+      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap"/>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-4T85M437M3"/>
       <script
         dangerouslySetInnerHTML={{ __html: `
         window.dataLayer = window.dataLayer || [];
@@ -88,7 +98,7 @@ const settings = {
       <section className="blog-details">
         <div className="container">
           <div className="row">
-            <div className="col-xl-12 col-lg-12">
+            <div className="col-xl-9 col-lg-9">
               <div className="blog-details__left">
                 <div className="blog-details__img">
                   <img src={dataBlogs.img} alt={dataBlogs.alt} />
@@ -154,6 +164,37 @@ const settings = {
                 </div>
                 </div>
                 </div>
+              </div>
+            </div>
+            <div className='col-md-3'>
+              <div className='blog-sidebar'>
+              {/* <form className='sidebarsearch'>
+                            <input type="text" placeholder="Search in our Blog" name="s" className="opensans-light user-valid valid"/>
+                            <a href=''><i className="fas fa-search"></i></a>
+                        </form> */}
+          <h3>Latest Blog Post</h3>
+          <div className='grow-your-bus-list'>
+            <ul className="latest-post-link" >
+              {latestBlog && latestBlog.length > 0 && latestBlog.map((lat, l)=>{
+                return(
+
+                  <li key={l}><Link href={lat.linkUrl}><img src={lat.img}/><span>{lat.title}</span></Link></li>    
+                )
+              })}
+            </ul>
+          </div>
+
+
+{/* <div className='sidebar-newsletter'>
+  <img src={'https://smca.ezrankings.in/react-backend/uploads/newsleter-blog.png'}></img>
+  <h4>STAY UP TO BEAT WITH THE LATEST DIGITAL MARKETING TRENDS AND TECHNIQUES
+
+</h4>
+
+<div className='newsleeter-form'>
+<input type='text' className='newsletter' placeholder='Email'/>
+<a href=''><i className="fas fa-paper-plane"></i></a>
+</div></div> */}
               </div>
             </div>
           </div>

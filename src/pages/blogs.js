@@ -122,14 +122,15 @@ const settings = {
       <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
         <title>Our Blogs - Social Media Creative Agency</title>
         <meta name="description" content="We have the latest updates on Social Media Marketing News. Read here trending or popular news across the world." />
-        <link rel="canonical" href="https://www.socialmediacreativeagency.com/blogs/" />
+        <link rel="canonical" href="https://www.socialmediacreativeagency.com/blogs" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Our Blogs - Social Media Creative Agency" />
         <meta property="og:description" content="We have the latest updates on Social Media Marketing News. Read here trending or popular news across the world." />
-        <meta property="og:url" content="https://www.socialmediacreativeagency.com/blogs/" />
+        <meta property="og:url" content="https://www.socialmediacreativeagency.com/blogs" />
         <meta property="og:site_name" content="Creative Agency" />
-        <meta property="article:modified_time" content="2023-02-27T05:40:13+00:00" />
+        <meta property="og:image" content="https://smca.ezrankings.in/react-backend/uploads/logo.png" />
+        <meta property="article:modified_time" content="" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="stylesheet" type="text/css" href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css"></link>
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap"></link>
@@ -235,7 +236,6 @@ const settings = {
     </>
   )
 }
-
 
 export async function getStaticProps() {
   const response = await fetch('https://smca.ezrankings.in/react-backend/blogList.php');

@@ -49,6 +49,7 @@ export default function MyPage({ data }) {
        <meta property="og:description" content="Browse this page and get Pricing details of Social Media Creative Agency. We offer Individual, Start Up and Business Plans." />
        <meta property="og:url" content="https://www.socialmediacreativeagency.com/pricing/" />
        <meta property="og:site_name" content="Creative Agency" />
+       <meta property="og:image" content="https://smca.ezrankings.in/react-backend/uploads/logo.png" />
        <meta property="article:modified_time" content="2023-02-27T05:38:59+00:00" />
        <meta name="twitter:card" content="summary_large_image" />
        <link rel="stylesheet" type="text/css" href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css"></link>
