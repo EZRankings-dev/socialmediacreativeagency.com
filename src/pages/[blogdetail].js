@@ -127,7 +127,7 @@ export default function Index({ dataBlogs }) {
                 }       
                 {/* <Link href="#">Performance</Link>        */}
                 </p>
-                <div className="blog-details__social-list" bis_skin_checked="1">
+                {/* <div className="blog-details__social-list" bis_skin_checked="1">
 
                 <div className="heateor_sss_sharing_container heateor_sss_horizontal_sharing" data-heateor-ss-offset="0" data-heateor-sss-href="https://www.socialmediacreativeagency.com/a-complete-guide-to-choosing-a-full-service-creative-agency-for-your-business/" bis_skin_checked="1">
                 <div className="heateor_sss_sharing_ul" bis_skin_checked="1">
@@ -161,7 +161,7 @@ export default function Index({ dataBlogs }) {
               </a>
               </div>
                 </div>                          
-                </div>
+                </div> */}
                 </div>
                 </div>
               </div>

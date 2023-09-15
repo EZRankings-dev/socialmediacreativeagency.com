@@ -2,9 +2,6 @@ import Head from 'next/head'
 import Contact from './components/Contact';
 import Navbar from './components/Navbar'
 import Footer from './components/Footer';
-
-// import routes from './routes';
-
  const Abouts = ()=> {
   return (
     <>

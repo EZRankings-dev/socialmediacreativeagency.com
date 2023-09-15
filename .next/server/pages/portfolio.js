@@ -2,7 +2,7 @@
 (() => {
 var exports = {};
 exports.id = 371;
-exports.ids = [371,227,241,482,911,219,457,450,14,783,611,448,383];
+exports.ids = [371,227,241,482,457,450,911,219,783,14,611,448,383];
 exports.modules = {
 
 /***/ 9546:
@@ -589,20 +589,7 @@ function PortfolioIndex({ portData  }) {
         ]
     });
 }
-// export default PortfolioIndex;
-// export async function getStaticProps() {
-//   let currNo = 1;
-//   const response = await fetch(``);
-//   const portData = await response.json();
-//   const callFunn =()=>{
-//     alert();
-//   }
-//   return {
-//     props: { portData }
-//   };
-// }
 async function getServerSideProps(data) {
-    console.log("ggggggg" + data);
     let currNo = 1;
     const response = await axios__WEBPACK_IMPORTED_MODULE_4__["default"].get(`https://smca.ezrankings.in/react-backend/portData.php?page=${currNo}`);
     const portData = response.data;

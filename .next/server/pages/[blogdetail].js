@@ -1,7 +1,7 @@
 (() => {
 var exports = {};
 exports.id = 488;
-exports.ids = [488,227,241,482,911,219,457,450,14,783,611,448,383];
+exports.ids = [488,227,241,482,457,450,911,219,783,14,611,448,383];
 exports.modules = {
 
 /***/ 4080:
@@ -274,131 +274,25 @@ function Index({ dataBlogs  }) {
                                                         __html: dataBlogs.description
                                                     }
                                                 }),
-                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                     className: "blog-details__bottom",
                                                     bis_skin_checked: "1",
-                                                    children: [
-                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                                                            className: "blog-details__tags",
-                                                            children: [
-                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                    children: "Tags"
-                                                                }),
-                                                                dataBlogs.tags && dataBlogs.tags.length > 0 && dataBlogs.tags[0] && dataBlogs.tags.map((tagData, t)=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_10___default()), {
-                                                                        href: "#",
-                                                                        className: "mr-5",
-                                                                        children: [
-                                                                            tagData,
-                                                                            " "
-                                                                        ]
-                                                                    }, t))
-                                                            ]
-                                                        }),
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                            className: "blog-details__social-list",
-                                                            bis_skin_checked: "1",
-                                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                                className: "heateor_sss_sharing_container heateor_sss_horizontal_sharing",
-                                                                "data-heateor-ss-offset": "0",
-                                                                "data-heateor-sss-href": "https://www.socialmediacreativeagency.com/a-complete-guide-to-choosing-a-full-service-creative-agency-for-your-business/",
-                                                                bis_skin_checked: "1",
-                                                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                                    className: "heateor_sss_sharing_ul",
-                                                                    bis_skin_checked: "1",
+                                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                                                        className: "blog-details__tags",
+                                                        children: [
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                                children: "Tags"
+                                                            }),
+                                                            dataBlogs.tags && dataBlogs.tags.length > 0 && dataBlogs.tags[0] && dataBlogs.tags.map((tagData, t)=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_10___default()), {
+                                                                    href: "#",
+                                                                    className: "mr-5",
                                                                     children: [
-                                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                                            className: "heateor_sss_button_instagram inst",
-                                                                            href: "https://www.instagram.com/",
-                                                                            title: "Instagram",
-                                                                            rel: "nofollow noopener",
-                                                                            target: "_blank",
-                                                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                                className: "heateor_sss_svg inst2",
-                                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
-                                                                                    className: "inst3",
-                                                                                    version: "1.1",
-                                                                                    viewBox: "-10 -10 148 148",
-                                                                                    width: "100%",
-                                                                                    height: "100%",
-                                                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("g", {
-                                                                                        children: [
-                                                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("g", {
-                                                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                                                                                                    d: "M86,112H42c-14.336,0-26-11.663-26-26V42c0-14.337,11.664-26,26-26h44c14.337,0,26,11.663,26,26v44 C112,100.337,100.337,112,86,112z M42,24c-9.925,0-18,8.074-18,18v44c0,9.925,8.075,18,18,18h44c9.926,0,18-8.075,18-18V42 c0-9.926-8.074-18-18-18H42z",
-                                                                                                    fill: "#fff"
-                                                                                                })
-                                                                                            }),
-                                                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("g", {
-                                                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                                                                                                    d: "M64,88c-13.234,0-24-10.767-24-24c0-13.234,10.766-24,24-24s24,10.766,24,24C88,77.233,77.234,88,64,88z M64,48c-8.822,0-16,7.178-16,16s7.178,16,16,16c8.822,0,16-7.178,16-16S72.822,48,64,48z",
-                                                                                                    fill: "#fff"
-                                                                                                })
-                                                                                            }),
-                                                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("g", {
-                                                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("circle", {
-                                                                                                    cx: "89.5",
-                                                                                                    cy: "38.5",
-                                                                                                    fill: "#fff",
-                                                                                                    r: "5.5"
-                                                                                                })
-                                                                                            })
-                                                                                        ]
-                                                                                    })
-                                                                                })
-                                                                            })
-                                                                        }),
-                                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                                            className: "heateor_sss_facebook face1",
-                                                                            href: `https://www.facebook.com/sharer/sharer.php?u=https://www.socialmediacreativeagency.com/${dataBlogs.linkUrl}`,
-                                                                            title: "Facebook",
-                                                                            rel: "nofollow noopener",
-                                                                            target: "_blank",
-                                                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                                className: "heateor_sss_svg face2",
-                                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
-                                                                                    className: "face3",
-                                                                                    focusable: "false",
-                                                                                    "aria-hidden": "true",
-                                                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                                                    width: "100%",
-                                                                                    height: "100%",
-                                                                                    viewBox: "-5 -5 42 42",
-                                                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                                                                                        d: "M17.78 27.5V17.008h3.522l.527-4.09h-4.05v-2.61c0-1.182.33-1.99 2.023-1.99h2.166V4.66c-.375-.05-1.66-.16-3.155-.16-3.123 0-5.26 1.905-5.26 5.405v3.016h-3.53v4.09h3.53V27.5h4.223z",
-                                                                                        fill: "#fff"
-                                                                                    })
-                                                                                })
-                                                                            })
-                                                                        }),
-                                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                                            className: "heateor_sss_button_twitter twi1",
-                                                                            href: `http://twitter.com/share?text=${dataBlogs.title}&url=https://www.socialmediacreativeagency.com/${dataBlogs.linkUrl}`,
-                                                                            title: "Twitter",
-                                                                            rel: "nofollow noopener",
-                                                                            target: "_blank",
-                                                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                                className: "heateor_sss_svg heateor_sss_s__default heateor_sss_s_twitter twi2",
-                                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
-                                                                                    className: "twi3",
-                                                                                    focusable: "false",
-                                                                                    "aria-hidden": "true",
-                                                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                                                    width: "100%",
-                                                                                    height: "100%",
-                                                                                    viewBox: "-4 -4 39 39",
-                                                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                                                                                        d: "M28 8.557a9.913 9.913 0 0 1-2.828.775 4.93 4.93 0 0 0 2.166-2.725 9.738 9.738 0 0 1-3.13 1.194 4.92 4.92 0 0 0-3.593-1.55 4.924 4.924 0 0 0-4.794 6.049c-4.09-.21-7.72-2.17-10.15-5.15a4.942 4.942 0 0 0-.665 2.477c0 1.71.87 3.214 2.19 4.1a4.968 4.968 0 0 1-2.23-.616v.06c0 2.39 1.7 4.38 3.952 4.83-.414.115-.85.174-1.297.174-.318 0-.626-.03-.928-.086a4.935 4.935 0 0 0 4.6 3.42 9.893 9.893 0 0 1-6.114 2.107c-.398 0-.79-.023-1.175-.068a13.953 13.953 0 0 0 7.55 2.213c9.056 0 14.01-7.507 14.01-14.013 0-.213-.005-.426-.015-.637.96-.695 1.795-1.56 2.455-2.55z",
-                                                                                        fill: "#fff"
-                                                                                    })
-                                                                                })
-                                                                            })
-                                                                        })
+                                                                        tagData,
+                                                                        " "
                                                                     ]
-                                                                })
-                                                            })
-                                                        })
-                                                    ]
+                                                                }, t))
+                                                        ]
+                                                    })
                                                 })
                                             ]
                                         })

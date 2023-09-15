@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react'
 import ContactForm  from './ContactForm.js'
 import Faq from './Faq.js'
 import axios from 'axios';
-
 import Link from 'next/link';
 
 const Contact = () => {
@@ -59,16 +58,7 @@ const Contact = () => {
       </section>
       <section className="">
         <div className="container">
-
           <ContactForm />
-            {/* <div className="contact-us-email">
-                 <h2><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfttvVVhZpCHNdbDnbmGLtwZsZDQRjVCpsBkcfXtwLbNGSGdpfbntHPzZdnknsvvLKSJNq" target="_blank">hello@smcr.com</a></h2>
-            </div> */}
-            {/* <div className="content-wrap">
-                 <p>We believe that every business is unique and deserves excellent and customized social media creatives, thats why we take the time to develop an enduring connection with our clients.
-                 </p>
-            </div> */}
-       
         </div>
       </section>
       

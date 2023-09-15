@@ -300,22 +300,7 @@ I will surely recommend SMCA to anyone who is looking for good Creative Designs 
     </>
   )
 }
-// export default PortfolioIndex;
-
-// export async function getStaticProps() {
-//   let currNo = 1;
-//   const response = await fetch(``);
-//   const portData = await response.json();
-//   const callFunn =()=>{
-//     alert();
-//   }
-//   return {
-//     props: { portData }
-//   };
-// }
-
 export async function getServerSideProps(data) {
-  console.log('ggggggg'+data)
   let currNo = 1;
   const response = await axios.get(`https://smca.ezrankings.in/react-backend/portData.php?page=${currNo}`);
   const portData = response.data;
