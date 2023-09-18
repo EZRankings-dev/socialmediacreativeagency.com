@@ -2,7 +2,7 @@
 (() => {
 var exports = {};
 exports.id = 371;
-exports.ids = [371,227,241,482,457,450,911,219,783,14,611,448,383];
+exports.ids = [371,227,482,241,457,450,911,219,783,14,611,448,383];
 exports.modules = {
 
 /***/ 9546:
@@ -47,8 +47,6 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_com
 
 
 
-// import routes from './routes';
-//  const PortfolioIndex = ()=> {
 function PortfolioIndex({ portData  }) {
     const [hiddenTitleIndex, setHiddenTitleIndex] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(1);
     const [currentPage, setCurrentPage] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(2);
@@ -59,11 +57,7 @@ function PortfolioIndex({ portData  }) {
     if (portData && portData.blog && portData.blog.length > 0) {
         blogDatta = portData.blog;
     }
-    // if(portData && portData.gallery && portData.gallery.length > 0){
-    //   blogWDatta = portData.gallery;
-    // }
     const [postList, setPostList] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(blogDatta);
-    // const [postwList, setPostwList] = useState(blogWDatta);
     (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
         setTimeout(()=>{}, 5000);
     }, []);
@@ -107,17 +101,8 @@ function PortfolioIndex({ portData  }) {
         ]
     };
     const Fancybox = {};
-    // console.log('vv',Fancybox);
-    // async function handleNextPage() {
-    //   const response = await axios.get(`https://smca.ezrankings.in/react-backend/portData.php?page=${currentPage}`);
-    //   const newPosts = response.data;
-    //  setPostList((prevPosts) => [...prevPosts, ...response.data.blog]);
-    //        setCurrentPage(currentPage + 1);
-    // }
     const handleNextPage = ()=>{
-        // setCurrentPage(currentPage + 1);
-        //setStartImg(toImg);
-        setToImg(toImg + 3);
+        setToImg(toImg + 9);
     };
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: [

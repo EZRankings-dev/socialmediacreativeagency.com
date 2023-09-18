@@ -10,9 +10,7 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import Link from 'next/link';
-// import routes from './routes';
 
-//  const PortfolioIndex = ()=> {
   export default function PortfolioIndex({ portData }) {
     const [hiddenTitleIndex, setHiddenTitleIndex] = useState(1);
     const [currentPage, setCurrentPage] = useState(2);
@@ -23,11 +21,7 @@ import Link from 'next/link';
     if(portData && portData.blog && portData.blog.length > 0){
       blogDatta = portData.blog;
     }
-    // if(portData && portData.gallery && portData.gallery.length > 0){
-    //   blogWDatta = portData.gallery;
-    // }
     const [postList, setPostList] = useState(blogDatta);
-    // const [postwList, setPostwList] = useState(blogWDatta);
     useEffect(() => {
       setTimeout(() => {
       }, 5000);
@@ -75,21 +69,10 @@ import Link from 'next/link';
     ]
   }
     const Fancybox = {
-      
     }
-   // console.log('vv',Fancybox);
-    // async function handleNextPage() {
-    //   const response = await axios.get(`https://smca.ezrankings.in/react-backend/portData.php?page=${currentPage}`);
-    //   const newPosts = response.data;
-    //  setPostList((prevPosts) => [...prevPosts, ...response.data.blog]);
-    //        setCurrentPage(currentPage + 1);
 
-    // }
     const handleNextPage = () => {
-      // setCurrentPage(currentPage + 1);
-      //setStartImg(toImg);
-      setToImg(toImg+3);
-
+      setToImg(toImg+9);
     }    
   return (
     <>
