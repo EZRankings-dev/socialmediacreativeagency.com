@@ -78,7 +78,7 @@ export default function Index({ dataBlogs }) {
       <meta property="og:site_name" content="Creative Agency" />
       <meta property="og:image" content={dataBlogs.img} />
       <meta property="article:modified_time" content="" />
-      <link rel="stylesheet" type="text/css" href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css"></link>
+      <link rel="stylesheet" type="text/css" href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css" content="noindex, nofollow"></link>
       <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap"/>
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-4T85M437M3"/>
       <script

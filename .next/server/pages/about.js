@@ -2,7 +2,7 @@
 (() => {
 var exports = {};
 exports.id = 521;
-exports.ids = [521,227,482,241,457,450,911,219,783,14,611,448,383];
+exports.ids = [521,241,227,482,457,911,450,783,219,14,611,448,383];
 exports.modules = {
 
 /***/ 843:
@@ -136,7 +136,8 @@ function Abouts({ dataAbout  }) {
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                         rel: "stylesheet",
                         type: "text/css",
-                        href: "https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css"
+                        href: "https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css",
+                        content: "noindex, nofollow"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                         rel: "stylesheet",

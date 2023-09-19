@@ -99,7 +99,7 @@ const settings = {
       <meta property="og:site_name" content="Creative Agency" />
       <meta property="og:image" content="https://smca.ezrankings.in/react-backend/uploads/logo.png" />
       <meta property="article:modified_time" content="" />
-      <link rel="stylesheet" type="text/css" href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css"></link>
+      <link rel="stylesheet" type="text/css" href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css"content="noindex, nofollow"></link>
       <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap"></link>
       {/* <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" ></script> */}

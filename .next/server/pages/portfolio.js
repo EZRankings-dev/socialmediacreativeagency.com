@@ -2,7 +2,7 @@
 (() => {
 var exports = {};
 exports.id = 371;
-exports.ids = [371,227,482,241,457,450,911,219,783,14,611,448,383];
+exports.ids = [371,241,227,482,457,911,450,783,219,14,611,448,383];
 exports.modules = {
 
 /***/ 9546:
@@ -162,7 +162,8 @@ function PortfolioIndex({ portData  }) {
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                         rel: "stylesheet",
                         type: "text/css",
-                        href: "https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css"
+                        href: "https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css",
+                        content: "noindex, nofollow"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                         rel: "stylesheet",
@@ -172,7 +173,8 @@ function PortfolioIndex({ portData  }) {
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                         rel: "stylesheet",
                         type: "text/css",
-                        href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+                        href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css",
+                        content: "noindex, nofollow"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("script", {
                         src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"
