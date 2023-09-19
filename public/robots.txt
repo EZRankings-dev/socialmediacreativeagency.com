@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
 Sitemap: https://www.socialmediacreativeagency.com/sitemap.xml
+Disallow: /_next/static/css/
+Disallow: /_next/static/chunks/webpack/
