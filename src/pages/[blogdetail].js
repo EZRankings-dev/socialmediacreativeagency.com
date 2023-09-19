@@ -114,7 +114,21 @@ export default function Index({ dataBlogs }) {
                     </li>
                   </ul>
                   <h1 className="blog-details__title">{dataBlogs.title}</h1>
+
+                  {/* <nav className="table-of-contents">
+    <div className='tab-con-head'><p>Contents</p><a href=''><i class="far fa-sliders-v-square"></i></a></div>
+        <ol className='list-heading'><li><a href="#RecognizingtheScenery">Recognizing the Scenery </a></li>
+            <li><a href="#Citation_Styles">Citation Styles</a></li>
+            <li><a href="#Author-date_style">Author-date style</a></li>
+            <li><a href="#Notes_and_bibliography_style">Notes and bibliography style</a></li>
+            <li><a href="#History">History</a></li>
+            <li><a href="#History_of_editions">History of editions</a></li>
+            <li><a href="#Recent_printed_editions">Recent printed editions</a></li>
+            <li><a href="#See_also">See also</a></li>
+        </ol></nav> */}
                   <div dangerouslySetInnerHTML={{ __html: dataBlogs.description}} />
+
+
                   <div className="blog-details__bottom" bis_skin_checked="1">
                 <p className="blog-details__tags">
                 <span>Tags</span>

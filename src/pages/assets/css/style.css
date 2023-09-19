@@ -2201,4 +2201,56 @@ form.sidebarsearch a {
     width: 78px;
     height: 78px;
     object-fit: cover;
+}.blog-sidebar {
+    position: sticky;
+    top: 20px;
+}nav.table-of-contents {
+    width: 70%;
+    background: #fbfbfb;
+    padding: 20px;
+}
+
+nav.table-of-contents .tab-con-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.table-of-contents .tab-con-head p {
+    font-weight: bold;
+    color: #000000;
+    font-size: 27px !important;
+}
+
+nav.table-of-contents .tab-con-head {
+    border-bottom: 1px solid #ddd;
+
+}
+
+nav.table-of-contents ol li {
+    /* list-style: decimal-leading-zero; */
+    background: #fff;
+    padding: 7px 10px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+nav.table-of-contents ol li a {
+    color: #000;
+}
+
+nav.table-of-contents ol {
+    margin: 0;
+    padding: 0;
+}
+
+nav.table-of-contents .tab-con-head i.far.fa-sliders-v-square {
+    color: #fff;
+    background: #db2029;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    margin-bottom: 12px;
 }
