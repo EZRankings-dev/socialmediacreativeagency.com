@@ -1,7 +1,7 @@
 (() => {
 var exports = {};
 exports.id = 488;
-exports.ids = [488,227,241,482,457,911,219,783,14,448,450,611,383];
+exports.ids = [488,227,241,482,457,450,911,219,783,14,611,448,383];
 exports.modules = {
 
 /***/ 4080:
@@ -30,7 +30,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(968);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5389);
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(9040);
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5301);
 /* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8096);
 /* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _assets_images_newsleter_blog_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(4080);
@@ -61,6 +61,7 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_com
 
 function Index({ dataBlogs  }) {
     const [latestBlog, setLatestBlog] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]);
+    const [contentStatus, setContentStatus] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(true);
     const [hiddenTitleIndex, setHiddenTitleIndex] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(0);
     const settings = {
         centerMode: true,
@@ -270,10 +271,61 @@ function Index({ dataBlogs  }) {
                                                     className: "blog-details__title",
                                                     children: dataBlogs.title
                                                 }),
+                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("nav", {
+                                                    className: "table-of-contents",
+                                                    children: [
+                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                            className: "tab-con-head",
+                                                            onClick: ()=>{
+                                                                setContentStatus(!!contentStatus);
+                                                            },
+                                                            children: [
+                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                                    children: "Contents"
+                                                                }),
+                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
+                                                                    class: "far fa-sliders-v-square"
+                                                                })
+                                                            ]
+                                                        }),
+                                                        contentStatus && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("ol", {
+                                                            className: "list-heading",
+                                                            children: dataBlogs && dataBlogs.otherBlog && dataBlogs.otherBlog.length > 0 && dataBlogs.otherBlog.map((con, c)=>{
+                                                                return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                                        href: "#onscroll" + c,
+                                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                                            dangerouslySetInnerHTML: {
+                                                                                __html: con.Contitle
+                                                                            }
+                                                                        })
+                                                                    })
+                                                                }, c);
+                                                            })
+                                                        })
+                                                    ]
+                                                }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                     dangerouslySetInnerHTML: {
-                                                        __html: dataBlogs.description
+                                                        __html: dataBlogs.describe
                                                     }
+                                                }),
+                                                dataBlogs && dataBlogs.otherBlog && dataBlogs.otherBlog.length > 0 && dataBlogs.otherBlog.map((newCon, n)=>{
+                                                    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                        id: "onscroll" + n,
+                                                        children: [
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                                dangerouslySetInnerHTML: {
+                                                                    __html: newCon.title
+                                                                }
+                                                            }),
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                                dangerouslySetInnerHTML: {
+                                                                    __html: newCon.description
+                                                                }
+                                                            })
+                                                        ]
+                                                    }, n);
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                     className: "blog-details__bottom",
