@@ -8,13 +8,13 @@
     "/components/Pricing": [],
     "/thankyou": [],
     "/[blogdetail]": [],
-    "/about": [],
-    "/blog/[blogdetail]": [],
     "/blogs": [],
-    "/services": [],
-    "/": [],
     "/portfolio": [],
-    "/pricing": []
+    "/": [],
+    "/services": [],
+    "/pricing": [],
+    "/blog/[blogdetail]": [],
+    "/about": []
   },
   "app": {},
   "appUsingSizeAdjust": false,

@@ -2205,7 +2205,7 @@ form.sidebarsearch a {
     position: sticky;
     top: 20px;
 }nav.table-of-contents {
-    width: 70%;
+    width: 100%;
     background: #fbfbfb;
     padding: 20px;
 }
