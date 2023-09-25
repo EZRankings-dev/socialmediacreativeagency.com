@@ -2,7 +2,7 @@
 (() => {
 var exports = {};
 exports.id = 405;
-exports.ids = [405,241,450,482,227,457,911,219,611,14,783,448,383];
+exports.ids = [405,227,241,482,457,450,911,219,383,611,448,14,783];
 exports.modules = {
 
 /***/ 5901:
@@ -250,51 +250,140 @@ function Index({ dataHomes  }) {
                     })
                 })
             }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-                className: "exp-branding-sec",
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "contianer",
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
+                className: "form-section grow-your-brand pt-1",
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                    className: "title-header",
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: "container",
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            className: "title-header",
-                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h1", {
-                                className: "homeH1",
+                            className: "row",
+                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "col-md-12",
                                 children: [
-                                    "We’re an experienced branding agency with more than ",
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                        children: "seven hundred projects "
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
+                                        className: "homeH1",
+                                        children: "A Full-Service Social Media Creative Agency in India to Grow Your Brand"
                                     }),
-                                    "under our belt."
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                        children: "Hire our\xa0best social media agency\xa0for small businesses\xa0to grow to big businesses by using our creatives at affordable costs. We are India's leading\xa0social media creative agency\xa0to help small and big businesses grow their brand to reach an audience easily and quickly.\xa0"
+                                    }),
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                        className: readMore ? "show" : "hide",
+                                        children: [
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                children: "Social media is growing rapidly, with nearly 5 billion people using it worldwide. India becoming the most populated country, has a high potential for marketing through social media. We are a\xa0full-service social media agency\xa0in India to offer comprehensive and customized designs for our clients to achieve their business goals.\xa0"
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                children: " As India's top\xa0social media creative agency, we help our clients increase their brand exposure and traffic.\xa0We offer creative designs at affordable costs with no compromise in quality for our clients to develop a loyal following and generate leads. As the best\xa0social media agency for small businesses,\xa0we help our clients to have a strong social media presence for their brand to develop business partnerships, minimize marketing costs and boost sales. "
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
+                                                children: "How Do We Help to Grow the Brand for Our Clients?"
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                children: "Branding has become the buzzword for businesses to build relationships with their audience to transform them into loyal customers.\xa0As the best full-service social media agency in India, we can create a brand for our clients to increase their identity and personality. The following are the ways we help to grow brands for our clients.\xa0"
+                                            }),
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                                                children: [
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                                        children: "Choose the right social media network suitable for the brand"
+                                                    }),
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                                        children: "Create visual branding to grab the attention of the audience"
+                                                    }),
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                                        children: "Develop a unique voice for the creatives to be authentic"
+                                                    })
+                                                ]
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                children: "To know more about how the top\xa0social media creative agency\xa0helps to grow your brand, call us now."
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
+                                                children: "Maximizing Reach and Engagement with Effective Social Media Posts & Strategies"
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                children: " Maximize reach and engagement with our effective social media posts & strategies to boost sales and increase revenue. We are India's top\xa0social media posting agency\xa0to offer creatives with eye-catching designs and innovative content.\xa0Our\xa0creative agency's social media posts\xa0go viral on many platforms to reach the audience easily and quickly.\xa0 All businesses need to engage in social media posts to reach their audience.\xa0And doing it for the sake of posting will not help get the likes, shares and comments to increase engagement. We offer the best\xa0creative agency social media posts\xa0on the right platform for maximum engagement. The following is how we do it to be India's top\xa0social media posting agency.\xa0"
+                                            }),
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                                                children: [
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                                        children: "We will understand our client's audience to offer them relevant and engaging posts."
+                                                    }),
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                                        children: "Our expert team create viral content for our clients to post on the right social media platforms."
+                                                    })
+                                                ]
+                                            }),
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                                                children: [
+                                                    "Call our consultant now to know how we can maximize reach and engagement with effective social media postings and strategies to expand your business exponentially.\xa0 Why Creative Social Media Services is a Must-Have for Every Business? With over five billion mobile users worldwide and nearly five billion social media users, all businesses need to leverage them to grow to new heights. Unlike trying DIY skills for creating personal social media posts, hiring creative  ",
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                        href: "https://www.socialmediacreativeagency.com/social-media-marketing-agency-in-india",
+                                                        children: "social media services"
+                                                    }),
+                                                    " for business postings is essential. It is because social media is fast becoming the tool to reach and engage audiences to grow business to new levels. Especially for small businesses, it is a cost-effective way for posting viral content to become a big business fast.\xa0 The following are why our best creative social media services are a must-have for every business."
+                                                ]
+                                            }),
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                                                children: [
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                                        children: "We help to build a brand by creating viral posts to reach and engage the audience to transform them into customers."
+                                                    }),
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                                        children: "We offer a personalized approach to clients to create comprehensive designs per their needs."
+                                                    }),
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                                        children: "We work on a wide range of budgets to be best for small to big businesses."
+                                                    })
+                                                ]
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                children: "Call our executive now for more reasons why our creative social media services are essential for every business."
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                        className: "readmoreBtn text-center",
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                            onClick: updateContent,
+                                            className: "btn-border",
+                                            children: !readMore ? "Read More" : "Read less"
+                                        })
+                                    })
                                 ]
                             })
                         })
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "",
-                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            className: "col-md-12 for-home-page-slider",
-                            children: [
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                    className: "sliderTitle",
-                                    children: "Our Work"
-                                }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((react_slick__WEBPACK_IMPORTED_MODULE_6___default()), {
-                                    ...settings,
-                                    className: "slick-slider ",
-                                    children: dataHomes.gallery && dataHomes.gallery.length > 0 && dataHomes.gallery.map((galData, i)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                            className: "item",
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("figure", {
-                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                    src: galData.img,
-                                                    alt: galData.alt
-                                                })
-                                            })
-                                        }, i))
-                                })
-                            ]
-                        })
                     })
-                ]
+                })
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
+                className: "exp-branding-sec",
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                    className: "",
+                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                        className: "col-md-12 for-home-page-slider",
+                        children: [
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                                className: "sliderTitle",
+                                children: "Our Work"
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((react_slick__WEBPACK_IMPORTED_MODULE_6___default()), {
+                                ...settings,
+                                className: "slick-slider ",
+                                children: dataHomes.gallery && dataHomes.gallery.length > 0 && dataHomes.gallery.map((galData, i)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                        className: "item",
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("figure", {
+                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                src: galData.img,
+                                                alt: galData.alt
+                                            })
+                                        })
+                                    }, i))
+                            })
+                        ]
+                    })
+                })
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
                 className: "start-retainership-sec ",
@@ -482,103 +571,18 @@ function Index({ dataHomes  }) {
                 })
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
-                className: "form-section grow-your-brand pt-0",
+                className: "exp-branding-sec",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: "container",
+                    className: "contianer",
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "row",
-                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            className: "col-md-12",
+                        className: "title-header",
+                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h2", {
                             children: [
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                    children: "A Full-Service Social Media Creative Agency in India to Grow Your Brand"
+                                "We’re an experienced branding agency with more than ",
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                    children: "seven hundred projects "
                                 }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    children: "Hire our\xa0best social media agency\xa0for small businesses\xa0to grow to big businesses by using our creatives at affordable costs. We are India's leading\xa0social media creative agency\xa0to help small and big businesses grow their brand to reach an audience easily and quickly.\xa0"
-                                }),
-                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                    className: readMore ? "show" : "hide",
-                                    children: [
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            children: "Social media is growing rapidly, with nearly 5 billion people using it worldwide. India becoming the most populated country, has a high potential for marketing through social media. We are a\xa0full-service social media agency\xa0in India to offer comprehensive and customized designs for our clients to achieve their business goals.\xa0"
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            children: " As India's top\xa0social media creative agency, we help our clients increase their brand exposure and traffic.\xa0We offer creative designs at affordable costs with no compromise in quality for our clients to develop a loyal following and generate leads. As the best\xa0social media agency for small businesses,\xa0we help our clients to have a strong social media presence for their brand to develop business partnerships, minimize marketing costs and boost sales. "
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                            children: "How Do We Help to Grow the Brand for Our Clients?"
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            children: "Branding has become the buzzword for businesses to build relationships with their audience to transform them into loyal customers.\xa0As the best full-service social media agency in India, we can create a brand for our clients to increase their identity and personality. The following are the ways we help to grow brands for our clients.\xa0"
-                                        }),
-                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-                                            children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                    children: "Choose the right social media network suitable for the brand"
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                    children: "Create visual branding to grab the attention of the audience"
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                    children: "Develop a unique voice for the creatives to be authentic"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            children: "To know more about how the top\xa0social media creative agency\xa0helps to grow your brand, call us now."
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                            children: "Maximizing Reach and Engagement with Effective Social Media Posts & Strategies"
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            children: " Maximize reach and engagement with our effective social media posts & strategies to boost sales and increase revenue. We are India's top\xa0social media posting agency\xa0to offer creatives with eye-catching designs and innovative content.\xa0Our\xa0creative agency's social media posts\xa0go viral on many platforms to reach the audience easily and quickly.\xa0 All businesses need to engage in social media posts to reach their audience.\xa0And doing it for the sake of posting will not help get the likes, shares and comments to increase engagement. We offer the best\xa0creative agency social media posts\xa0on the right platform for maximum engagement. The following is how we do it to be India's top\xa0social media posting agency.\xa0"
-                                        }),
-                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-                                            children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                    children: "We will understand our client's audience to offer them relevant and engaging posts."
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                    children: "Our expert team create viral content for our clients to post on the right social media platforms."
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                                            children: [
-                                                "Call our consultant now to know how we can maximize reach and engagement with effective social media postings and strategies to expand your business exponentially.\xa0 Why Creative Social Media Services is a Must-Have for Every Business? With over five billion mobile users worldwide and nearly five billion social media users, all businesses need to leverage them to grow to new heights. Unlike trying DIY skills for creating personal social media posts, hiring creative  ",
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                    href: "https://www.socialmediacreativeagency.com/social-media-marketing-agency-in-india",
-                                                    children: "social media services"
-                                                }),
-                                                " for business postings is essential. It is because social media is fast becoming the tool to reach and engage audiences to grow business to new levels. Especially for small businesses, it is a cost-effective way for posting viral content to become a big business fast.\xa0 The following are why our best creative social media services are a must-have for every business."
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-                                            children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                    children: "We help to build a brand by creating viral posts to reach and engage the audience to transform them into customers."
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                    children: "We offer a personalized approach to clients to create comprehensive designs per their needs."
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                    children: "We work on a wide range of budgets to be best for small to big businesses."
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            children: "Call our executive now for more reasons why our creative social media services are essential for every business."
-                                        })
-                                    ]
-                                }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                    className: "readmoreBtn text-center",
-                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                        onClick: updateContent,
-                                        className: "btn-border",
-                                        children: !readMore ? "Read More" : "Read less"
-                                    })
-                                })
+                                "under our belt."
                             ]
                         })
                     })

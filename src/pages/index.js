@@ -141,116 +141,12 @@ const settings = {
             </div>
          </div>
       </section>
-
-      <section className="exp-branding-sec">
-         <div className="contianer">
-            <div className="title-header">
-               <h1 className='homeH1'>We’re an experienced branding agency with more than <span>seven hundred projects </span>
-                  under our belt.
-               </h1>
-            </div>
-         </div>
-         <div className="">
-            <div className="col-md-12 for-home-page-slider">
-               <h2 className="sliderTitle">Our Work</h2>
-               <Slider {...settings} className="slick-slider ">
-               {dataHomes.gallery && dataHomes.gallery.length > 0 && dataHomes.gallery.map((galData, i) => (
-                     <div className="item" key={i}>
-                        <figure><img src={galData.img}  alt={galData.alt} />
-                        </figure>
-                     </div>
-                     ))}
-               </Slider>
-            </div>
-         </div>
-
-      </section>
-      <section className="start-retainership-sec ">
-         <div className="continer">
-            <div className="title-header">
-               <h2>Let's Start Retainership with us</h2>
-               <div className="currency-wrap">
-                  <div className="dollor-wrap">
-                     <sup>$</sup>150
-                  </div>
-                  {/* <div className="divider">/</div> */}
-                  <div className="rupee-wrap">
-                     {/* <sup>₹</sup>7000 */}
-                      <sub>Per month</sub>
-                  </div>
-               </div>
-               <Link href="/contact" className="btn-border">Talk to an Expert</Link>
-            </div>
-            <div className="row">
-               <div className="col-md-12">
-                  <div className="content-wrap">
-                     <p>We believe that every business
-                        is <span>unique and deserves excellent and customized
-                        social media creatives,</span> thats why we take the time to
-                        develop an enduring connection with our clients.
-                     </p>
-                  </div>
-               </div>
-            </div>
-            <div className="row">
-               <div className="col-md-12">
-                  <div className="content-wrap2">
-                     <h2>Let's create something
-                        amazing together.
-                     </h2>
-                     <Link href="/contact" className="">Get Started</Link>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <FooterForm />
-      <section className="blog-one blog-one__blog-page pt-0">
-        <div className="container">
-            <div className="row">
-            <h2 className="faq-title blogHome">Blogs</h2>
-              {dataHomes && dataHomes.blog && dataHomes.blog.length > 0 && dataHomes.blog.map((blogD, b)=>(
-                <div className="col-xl-4 col-lg-4 col-md-6 " key={b}>
-                    <div className="blog-one__single">
-                        <div className="blog-one__img">
-                            <img src={blogD.img} alt={blogD.alt} />
-                            <Link href={`${blogD.linkUrl}`}>
-                            <span className="blog-one__plus"></span>
-                            </Link>
-                            <div className="blog-one__date">
-                            <p>{blogD.post_date} <br /> {blogD.post_month.substring(0,3)}</p>
-                            </div>
-                        </div>
-                        <div className="blog-one__content">
-                            <ul className="list-unstyled blog-one__meta">
-                            <li><Link href="#"><i className="far fa-folder-open"></i> {blogD.category}</Link></li>
-                            </ul>
-                            <h3 className="blog-one__title">
-                             <Link href={`${blogD.linkUrl}`}>{blogD.title.substring(0,65)}</Link>
-                            </h3>
-                            <div className="blog-one__person">
-                                <div className="blog-one__person-img">
-                                  <img src="https://smca.ezrankings.in/react-backend/uploads/logo.png" alt={blogD.author} />
-                                </div>
-                                <div className="blog-one__person-content">
-                                    <p>by {blogD.author}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-                ))}   
-                <div className="homeBlogViewAll">
-                  <Link href="/blogs" className="btn-border">Views All</Link>
-              </div>                         
-            </div>
-        </div>
-      </section>
-      <section className="form-section grow-your-brand pt-0">
+      <section className="form-section grow-your-brand pt-1">
+      <div className="title-header">
          <div className="container">
             <div className="row">
                <div className="col-md-12">
-               <h2>A Full-Service Social Media Creative Agency in India to Grow Your Brand</h2>
+               <h1 className='homeH1'>A Full-Service Social Media Creative Agency in India to Grow Your Brand</h1>
                <p>Hire our best social media agency for small businesses to grow to big businesses by
                   using our creatives at affordable costs. We are India&#39;s leading social media creative
                   agency to help small and big businesses grow their brand to reach an audience easily and
@@ -337,6 +233,114 @@ const settings = {
 
                   <div className="readmoreBtn text-center"><a  onClick={updateContent} className="btn-border">{!readMore ? 'Read More' :'Read less'}</a></div>
                   </div>   
+            </div>
+         </div>
+         </div>
+      </section>
+      <section className="exp-branding-sec">
+         <div className="">
+            <div className="col-md-12 for-home-page-slider">
+               <h2 className="sliderTitle">Our Work</h2>
+               <Slider {...settings} className="slick-slider ">
+               {dataHomes.gallery && dataHomes.gallery.length > 0 && dataHomes.gallery.map((galData, i) => (
+                     <div className="item" key={i}>
+                        <figure><img src={galData.img}  alt={galData.alt} />
+                        </figure>
+                     </div>
+                     ))}
+               </Slider>
+            </div>
+         </div>
+
+      </section>
+
+      <section className="start-retainership-sec ">
+         <div className="continer">
+            <div className="title-header">
+               <h2>Let's Start Retainership with us</h2>
+               <div className="currency-wrap">
+                  <div className="dollor-wrap">
+                     <sup>$</sup>150
+                  </div>
+                  {/* <div className="divider">/</div> */}
+                  <div className="rupee-wrap">
+                     {/* <sup>₹</sup>7000 */}
+                      <sub>Per month</sub>
+                  </div>
+               </div>
+               <Link href="/contact" className="btn-border">Talk to an Expert</Link>
+            </div>
+            <div className="row">
+               <div className="col-md-12">
+                  <div className="content-wrap">
+                     <p>We believe that every business
+                        is <span>unique and deserves excellent and customized
+                        social media creatives,</span> thats why we take the time to
+                        develop an enduring connection with our clients.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div className="row">
+               <div className="col-md-12">
+                  <div className="content-wrap2">
+                     <h2>Let's create something
+                        amazing together.
+                     </h2>
+                     <Link href="/contact" className="">Get Started</Link>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <FooterForm />
+      <section className="blog-one blog-one__blog-page pt-0">
+        <div className="container">
+            <div className="row">
+            <h2 className="faq-title blogHome">Blogs</h2>
+              {dataHomes && dataHomes.blog && dataHomes.blog.length > 0 && dataHomes.blog.map((blogD, b)=>(
+                <div className="col-xl-4 col-lg-4 col-md-6 " key={b}>
+                    <div className="blog-one__single">
+                        <div className="blog-one__img">
+                            <img src={blogD.img} alt={blogD.alt} />
+                            <Link href={`${blogD.linkUrl}`}>
+                            <span className="blog-one__plus"></span>
+                            </Link>
+                            <div className="blog-one__date">
+                            <p>{blogD.post_date} <br /> {blogD.post_month.substring(0,3)}</p>
+                            </div>
+                        </div>
+                        <div className="blog-one__content">
+                            <ul className="list-unstyled blog-one__meta">
+                            <li><Link href="#"><i className="far fa-folder-open"></i> {blogD.category}</Link></li>
+                            </ul>
+                            <h3 className="blog-one__title">
+                             <Link href={`${blogD.linkUrl}`}>{blogD.title.substring(0,65)}</Link>
+                            </h3>
+                            <div className="blog-one__person">
+                                <div className="blog-one__person-img">
+                                  <img src="https://smca.ezrankings.in/react-backend/uploads/logo.png" alt={blogD.author} />
+                                </div>
+                                <div className="blog-one__person-content">
+                                    <p>by {blogD.author}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                ))}   
+                <div className="homeBlogViewAll">
+                  <Link href="/blogs" className="btn-border">Views All</Link>
+              </div>                         
+            </div>
+        </div>
+      </section>
+      <section className="exp-branding-sec">
+         <div className="contianer">
+            <div className="title-header">
+               <h2 >We’re an experienced branding agency with more than <span>seven hundred projects </span>
+                  under our belt.
+               </h2>
             </div>
          </div>
       </section>
