@@ -1,7 +1,7 @@
 (() => {
 var exports = {};
 exports.id = 488;
-exports.ids = [488,227,241,482,457,911,219,450,14,783,611,448,383];
+exports.ids = [488,241,450,482,227,457,911,219,611,14,783,448,383];
 exports.modules = {
 
 /***/ 4080:
@@ -290,6 +290,9 @@ function Index({ dataBlogs  }) {
                                                         }),
                                                         contentStatus && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("ul", {
                                                             className: "list-heading",
+                                                            style: {
+                                                                backgroundColor: "#fff"
+                                                            },
                                                             children: dataBlogs && dataBlogs.otherBlog && dataBlogs.otherBlog.length > 0 && dataBlogs.otherBlog.map((con, c)=>{
                                                                 return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {

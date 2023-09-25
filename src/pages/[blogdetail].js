@@ -121,7 +121,7 @@ export default function Index({ dataBlogs }) {
     <div className='tab-con-head'  onClick={()=>{
       setContentStatus(!!contentStatus)
     }}><p>Table of Contents</p><i class="far fa-sliders-v-square"></i></div>
-       {contentStatus && <ul className='list-heading'>
+       {contentStatus && <ul className='list-heading' style={{backgroundColor:'#fff'}}>
           {/* <li><a href="#RecognizingtheScenery">Recognizing the Scenery </a></li> */}
            {dataBlogs && dataBlogs.otherBlog && dataBlogs.otherBlog.length > 0 && dataBlogs.otherBlog.map((con, c)=>{
             return(
