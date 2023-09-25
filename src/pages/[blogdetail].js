@@ -120,17 +120,17 @@ export default function Index({ dataBlogs }) {
                  <nav className="table-of-contents">
     <div className='tab-con-head'  onClick={()=>{
       setContentStatus(!!contentStatus)
-    }}><p>Contents</p><i class="far fa-sliders-v-square"></i></div>
-       {contentStatus && <ol className='list-heading'>
+    }}><p>Table of Contents</p><i class="far fa-sliders-v-square"></i></div>
+       {contentStatus && <ul className='list-heading'>
           {/* <li><a href="#RecognizingtheScenery">Recognizing the Scenery </a></li> */}
            {dataBlogs && dataBlogs.otherBlog && dataBlogs.otherBlog.length > 0 && dataBlogs.otherBlog.map((con, c)=>{
             return(
-              <li key={c}><a href={'#onscroll'+c} ><div dangerouslySetInnerHTML={{ __html: con.Contitle}} /></a></li>
+              <li key={c}><a href={'#onscroll'+c} ><span style={{color:'#252222',fontWeight:'500'}}>{con.Contitle}</span></a></li>
             )
            })
            }
             
-        </ol>}
+        </ul>}
         </nav>}
                   <div dangerouslySetInnerHTML={{ __html: dataBlogs.describe}} />
                   {dataBlogs && dataBlogs.otherBlog && dataBlogs.otherBlog.length > 0 && dataBlogs.otherBlog.map((newCon,n)=>{

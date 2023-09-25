@@ -88,11 +88,11 @@ export default function Abouts({ dataAbout }) {
         </section>
         <section className="exp-branding-sec">
            <div className="contianer">
-              <div className="title-header">
-                 <h2>We are a passionate team of
+              <div className="title-header blogPage">
+                 <h1>We are a passionate team of
                     Social media creative experts who are committed to
                     assisting companies in flourishing digitally.
-                 </h2>
+                 </h1>
               </div>
            </div>
         </section>

@@ -250,6 +250,11 @@ section.exp-branding-sec .title-header h2 {
     font-size: 42pt;
     font-weight: 300;
     color: #000;
+}
+section.exp-branding-sec .blogPage h1 {
+    font-size: 42pt;
+    font-weight: 300;
+    color: #000;    
 }.start-retainership-sec  .title-header:after {
     display: none;
 }
@@ -2234,16 +2239,27 @@ nav.table-of-contents ol li {
     font-size: 18px;
     margin: 10px 0;
 }
-
+nav.table-of-contents ul li {
+    /* list-style: decimal-leading-zero; */
+    background: #fff;
+    padding: 7px 10px;
+    font-size: 18px;
+    /* margin: 10px 0; */
+}
 nav.table-of-contents ol li a {
     color: #000;
 }
-
+nav.table-of-contents ul li a {
+    color: #000;
+}
 nav.table-of-contents ol {
     margin: 0;
     padding: 0;
 }
-
+nav.table-of-contents ul {
+    margin: 0;
+    padding: 0;
+}
 nav.table-of-contents .tab-con-head i.far.fa-sliders-v-square {
     color: #fff;
     background: #db2029;

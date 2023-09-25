@@ -2,7 +2,7 @@
 (() => {
 var exports = {};
 exports.id = 521;
-exports.ids = [521,227,241,482,457,383,911,219,450,783,448,14,611];
+exports.ids = [521,227,241,482,457,911,219,450,14,783,611,448,383];
 exports.modules = {
 
 /***/ 843:
@@ -201,8 +201,8 @@ function Abouts({ dataAbout  }) {
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                     className: "contianer",
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "title-header",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                        className: "title-header blogPage",
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
                             children: "We are a passionate team of Social media creative experts who are committed to assisting companies in flourishing digitally."
                         })
                     })

@@ -1,7 +1,7 @@
 (() => {
 var exports = {};
 exports.id = 488;
-exports.ids = [488,227,241,482,457,383,911,219,450,783,448,14,611];
+exports.ids = [488,227,241,482,457,911,219,450,14,783,611,448,383];
 exports.modules = {
 
 /***/ 4080:
@@ -281,23 +281,25 @@ function Index({ dataBlogs  }) {
                                                             },
                                                             children: [
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                                    children: "Contents"
+                                                                    children: "Table of Contents"
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
                                                                     class: "far fa-sliders-v-square"
                                                                 })
                                                             ]
                                                         }),
-                                                        contentStatus && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("ol", {
+                                                        contentStatus && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("ul", {
                                                             className: "list-heading",
                                                             children: dataBlogs && dataBlogs.otherBlog && dataBlogs.otherBlog.length > 0 && dataBlogs.otherBlog.map((con, c)=>{
                                                                 return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                                         href: "#onscroll" + c,
-                                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                                            dangerouslySetInnerHTML: {
-                                                                                __html: con.Contitle
-                                                                            }
+                                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                                            style: {
+                                                                                color: "#252222",
+                                                                                fontWeight: "500"
+                                                                            },
+                                                                            children: con.Contitle
                                                                         })
                                                                     })
                                                                 }, c);
