@@ -129,7 +129,7 @@ const settings = {
       <meta name="google-site-verification" content="muKy4GDWt7CbVzZo5Gly_Z6UieYyZ65RlQsB4ts9uKY" />
       </Head>
       <Navbar />
-      <section className="banner-section">
+      <section className="banner-section home-banner">
          <div className="container">
             <div className="row">
                <div className="col-md-12">
@@ -338,8 +338,8 @@ const settings = {
       <section className="exp-branding-sec">
          <div className="contianer">
             <div className="title-header">
-               <h2 >We’re an experienced branding agency with more than <span>seven hundred projects </span>
-                  under our belt.
+               <h2 >We’re an experienced branding agency with more than <span>seven hundred projects </span>        under our belt. 
+           
                </h2>
             </div>
          </div>

@@ -2,7 +2,7 @@
 (() => {
 var exports = {};
 exports.id = 405;
-exports.ids = [405,227,482,241,457,450,911,219,783,14,611,448,383];
+exports.ids = [405,482,241,227,450,457,911,219,783,14,611,448,383];
 exports.modules = {
 
 /***/ 5901:
@@ -215,7 +215,7 @@ function Index({ dataHomes  }) {
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Navbar__WEBPACK_IMPORTED_MODULE_4__["default"], {}),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
-                className: "banner-section",
+                className: "banner-section home-banner",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                     className: "container",
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -582,7 +582,7 @@ function Index({ dataHomes  }) {
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                     children: "seven hundred projects "
                                 }),
-                                "under our belt."
+                                "        under our belt."
                             ]
                         })
                     })
