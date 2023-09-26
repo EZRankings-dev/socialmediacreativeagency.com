@@ -2,7 +2,7 @@
 (() => {
 var exports = {};
 exports.id = 371;
-exports.ids = [371,227,241,482,457,450,911,219,383,611,448,14,783];
+exports.ids = [371,227,241,482,457,450,911,219,783,14,611,448,383];
 exports.modules = {
 
 /***/ 9546:
@@ -209,24 +209,23 @@ function PortfolioIndex({ portData  }) {
                         className: "row",
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                             className: "col-md-12",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "banner-caption",
-                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h1", {
-                                    children: [
-                                        " ",
-                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                            children: [
-                                                "OUR P",
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                    src: "https://smca.ezrankings.in/react-backend/uploads/oshap.png",
-                                                    className: "o-shap",
-                                                    alt: ""
-                                                }),
-                                                "rtfolio"
-                                            ]
-                                        })
-                                    ]
-                                })
+                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "banner-caption portfolio-o-logo",
+                                children: [
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h1", {
+                                        children: [
+                                            " ",
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                children: "OUR Portfolio"
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                        src: "https://smca.ezrankings.in/react-backend/uploads/oshap.png",
+                                        className: "o-shap",
+                                        alt: ""
+                                    })
+                                ]
                             })
                         })
                     })

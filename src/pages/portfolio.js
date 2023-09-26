@@ -114,8 +114,9 @@ import Link from 'next/link';
          <div className="container">
             <div className="row">
                <div className="col-md-12">
-                  <div className="banner-caption">
-                     <h1> <span >OUR P<img src={"https://smca.ezrankings.in/react-backend/uploads/oshap.png"} className="o-shap" alt=""/>rtfolio</span></h1>
+                  <div className="banner-caption portfolio-o-logo">
+                     <h1> <span>OUR Portfolio</span></h1>
+                     <img src={"https://smca.ezrankings.in/react-backend/uploads/oshap.png"} className="o-shap" alt=""/>
                   </div>
                </div>
             </div>

@@ -2270,3 +2270,59 @@ nav.table-of-contents .tab-con-head i.far.fa-sliders-v-square {
     height: 36px;
     margin-bottom: 12px;
 }
+
+.banner-caption.portfolio-o-logo {
+    position: relative;
+}
+
+.banner-caption.portfolio-o-logo img.o-shap {
+    position: absolute;
+    top: 44px;
+    right: 52%;
+    width: 121px;
+}
+@media (min-width: 280px) and (max-width: 767px){  
+    .banner-caption.portfolio-o-logo img.o-shap {
+        position: absolute;
+        top: 15px;
+        right: 52%;
+        width: 28px;
+    }
+}
+
+@media (min-width:767px) and (max-width: 992px){  
+    .banner-caption.portfolio-o-logo img.o-shap {
+        position: absolute;
+        top: 43px;
+        right: 52%;
+        width: 57px;
+    }
+}
+
+@media (min-width:993px) and (max-width: 1200px){  
+    .banner-caption.portfolio-o-logo img.o-shap {
+        position: absolute;
+        top: 55px;
+        right: 51.4%;
+        width: 82px;
+    }
+}
+
+@media (min-width:1200px) and (max-width: 1400px){  
+
+    .our-portfolio-title .banner-caption h1 span {
+       
+        font-size: 139px!important;
+        margin-top: -50px;
+        letter-spacing: 10px;
+    }
+    .banner-caption.portfolio-o-logo img.o-shap {
+        position: absolute;
+        top: 40px;
+        right: 52.1%;
+        width: 109px;
+    }
+}
+
+
+
