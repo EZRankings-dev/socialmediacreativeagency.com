@@ -1698,7 +1698,10 @@ a.dropdown-item:hover {
     font-size: 22px;
     font-weight: 300;
 }section.grow-your-brand h3 {
-    font-weight: 300;
+    /* font-weight: 300; */
+    font-size: 32pt !important;
+    font-weight: 300 !important;
+    color: #000 !important;
 }
 .pricing-table-mobile {
     display:none;
