@@ -2,7 +2,7 @@
 (() => {
 var exports = {};
 exports.id = 405;
-exports.ids = [405,241,227,482,219,911,457,450,783,448,14,611,383];
+exports.ids = [405,227,241,482,457,911,450,219,14,783,611,448,383];
 exports.modules = {
 
 /***/ 5901:
@@ -254,6 +254,9 @@ function Index({ dataHomes  }) {
                 className: "form-section grow-your-brand pt-1",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                     className: "title-header",
+                    style: {
+                        textAlign: "left"
+                    },
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                         className: "container",
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {

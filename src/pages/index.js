@@ -142,7 +142,7 @@ const settings = {
          </div>
       </section>
       <section className="form-section grow-your-brand pt-1">
-      <div className="title-header">
+      <div className="title-header" style={{textAlign:'left'}}>
          <div className="container">
             <div className="row">
                <div className="col-md-12">
