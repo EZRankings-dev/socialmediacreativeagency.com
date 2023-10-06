@@ -11,9 +11,9 @@
     "/about": [],
     "/blog/[blogdetail]": [],
     "/blogs": [],
-    "/services": [],
     "/portfolio": [],
     "/": [],
+    "/services": [],
     "/pricing": []
   },
   "app": {},
